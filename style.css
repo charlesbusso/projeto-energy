@@ -5,36 +5,31 @@
     
 }
 .flex-container{
-    display: flex;
-    margin: auto;
-    padding: 10px 15px;
-}
-
-header {
    background-color: cadetblue;
-   height: 150px;
-   margin-top: 20px;
    color: white;
-   }
-   header p{
-      padding-top: 20px;
-      margin: 20px;
-      
-   }
-   header h1 {
-      padding-top: 10px;
-      margin: 15px;
-      
-   }
-   header h2 {
-      margin: 15px;
+   justify-content: space-between;
+   display: flex;
+   margin: auto;
+   padding: 10px 15px;
+    
+    
+}
+.menu{
+   display: flex;
+   background-color: cadetblue;
+   color: white;
+}
+.menu h1{
+   display: flex;
+   flex-direction: column;
 
-  }
-  
- 
-
-
-
+}
+.lista{
+   justify-content: space-between;
+   list-style-position: inside;
    
+    }
+
+ 
  
 

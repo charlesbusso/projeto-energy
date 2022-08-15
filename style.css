@@ -5,10 +5,9 @@
     
 }
 .flex-container{
+   text-align: end;
    flex-direction: column;
-   background-color: cadetblue;
    color: white;
-   justify-content: space-between;
    display: flex;
    margin: auto;
    padding: 10px 15px;
@@ -16,28 +15,64 @@
     
 }
 .menu{
+   background-image: linear-gradient(to left, blue, rgb(84, 136, 184));
+   align-items: flex-end;
+   text-align: end;
    justify-content: space-between;
    display: flex;
    background-color: cadetblue;
-   color: white;
 }
 .menu h1{
-   background-color: black;
-   display: flex;
-   flex-direction: column;
+   margin: 5px;
+   padding-right: 10px;
+   color: white;
+   text-align: center;
+   font-size: 3em;
+   font-weight: bolder;
+   
 
 }
 .menu p{
-background-color: brown;
+   padding-bottom: 30px;
+   font-size: 1.4em;
+   font-weight: bold;
+   color: white;
+   
+   
 }
-.lista{
+.menu nav{
+   font-weight: bold;
+   font-size: 1.2em;
+   margin: 20px;
    color: white;
    flex-direction: column;
-   background-color: blue;
    justify-content: space-between;
-   list-style-position: inside;
    
-    }
+   
+}
+a {
+   padding: 20px;
+   color: white;
+   text-decoration: none;
+   border-radius: 5px;
+}
+.menu a:hover{
+   text-decoration: underline;
+}
+.apresentacao{
+   align-items: flex-end;
+   color: black;
+   justify-content: space-between;
+   height: 300px;
+   width: 150px;
+}
+.apresentacao p{
+   align-items: flex-end;
+   justify-content: space-between;
+}
+.apresentacao img {
+   justify-content: space-between;
+}
 
  
  

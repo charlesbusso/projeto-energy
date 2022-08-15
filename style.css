@@ -5,6 +5,7 @@
     
 }
 .flex-container{
+   flex-direction: column;
    background-color: cadetblue;
    color: white;
    justify-content: space-between;
@@ -15,16 +16,24 @@
     
 }
 .menu{
+   justify-content: space-between;
    display: flex;
    background-color: cadetblue;
    color: white;
 }
 .menu h1{
+   background-color: black;
    display: flex;
    flex-direction: column;
 
 }
+.menu p{
+background-color: brown;
+}
 .lista{
+   color: white;
+   flex-direction: column;
+   background-color: blue;
    justify-content: space-between;
    list-style-position: inside;
    

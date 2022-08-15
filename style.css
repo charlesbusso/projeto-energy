@@ -15,12 +15,12 @@
     
 }
 .menu{
-   background-image: linear-gradient(to left, blue, rgb(84, 136, 184));
+   background-image: linear-gradient(to right, blue, rgb(84, 136, 184));
    align-items: flex-end;
    text-align: end;
    justify-content: space-between;
    display: flex;
-   background-color: cadetblue;
+   
 }
 .menu h1{
    margin: 5px;
@@ -50,29 +50,62 @@
    
    
 }
-a {
+.menu a {
    padding: 20px;
    color: white;
    text-decoration: none;
    border-radius: 5px;
 }
-.menu a:hover{
-   text-decoration: underline;
-}
+
 .apresentacao{
-   align-items: flex-end;
+   display: flex;
+   margin: 10px;
+   padding: 20px;
+   flex-direction: row;
    color: black;
    justify-content: space-between;
    height: 300px;
-   width: 150px;
+   width: 450px;
+   
 }
 .apresentacao p{
-   align-items: flex-end;
+   text-align: center;
+   font-size: 1.1em;
+   padding-top: 20px;
+   padding: 20px;
+   margin: 20px;
+   align-items: center;
    justify-content: space-between;
+   width: 400px;
 }
+   
+a{
+   font-size: 1em;
+   border-radius: 5px;
+   padding: 10px;
+   text-decoration: none;
+}
+
 .apresentacao img {
-   justify-content: space-between;
+   padding-left: 200px;
+   width: 550px;
+   margin: auto;
+   min-width: 320px;
 }
+.servicos{
+   flex-wrap: nowrap;
+   display: flex;
+   justify-content: space-between;
+   width: 320px;
+   flex-direction: column;
+}
+
+a:hover{
+   text-decoration: underline;
+   background-color: deepskyblue;
+}
+
+
 
  
  

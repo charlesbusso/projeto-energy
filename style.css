@@ -3,9 +3,9 @@
     margin: 0;
     padding: 0;
     
+    
 }
 .flex-container{
-   text-align: end;
    flex-direction: column;
    color: white;
    display: flex;
@@ -37,9 +37,8 @@
    font-size: 1.4em;
    font-weight: bold;
    color: white;
-   
-   
 }
+
 .menu nav{
    font-weight: bold;
    font-size: 1.2em;
@@ -63,11 +62,14 @@
    padding: 20px;
    flex-direction: row;
    color: black;
-   justify-content: space-between;
-   height: 300px;
-   width: 450px;
    
 }
+img{
+   display: flex;
+   width: 300px;
+   
+}
+
 .apresentacao p{
    text-align: center;
    font-size: 1.1em;
@@ -76,14 +78,21 @@
    margin: 20px;
    align-items: center;
    justify-content: space-between;
-   width: 400px;
+   max-width: 400px;
+   min-width: 150px;
 }
    
-a{
-   font-size: 1em;
+h2{
+   font-weight: bold;
+   position: absolute;
+   margin: 20px;
+   color: blue;
+   font-size: 1.2em;
    border-radius: 5px;
-   padding: 10px;
-   text-decoration: none;
+   padding-top: 15px;
+   justify-content: space-between;
+   
+   
 }
 
 .apresentacao img {
@@ -91,14 +100,27 @@ a{
    width: 550px;
    margin: auto;
    min-width: 320px;
+   height: 300px;
 }
 .servicos{
-   flex-wrap: nowrap;
-   display: flex;
    justify-content: space-between;
-   width: 320px;
    flex-direction: column;
 }
+.servicos h1{ 
+   padding: 20px;
+   margin: 20px;
+   color: blue;
+   font-weight: bold;
+   text-align: left;  
+}
+.servicos ul{
+   color: blue;
+   font-size: 1.2em;
+}
+li{
+   
+}
+
 
 a:hover{
    text-decoration: underline;

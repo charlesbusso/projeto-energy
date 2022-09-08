@@ -5,154 +5,148 @@
     
     
 }
-.flex-container{
-   flex-direction: column;
-   color: white;
+
+header{
+   width: 100%;
    display: flex;
-   margin: auto;
-   padding: 10px 15px;
-    
-    
-}
-.menu{
-   background-image: linear-gradient(to right, blue, rgb(84, 136, 184));
-   align-items: flex-end;
-   text-align: end;
    justify-content: space-between;
-   display: flex;
-   
-}
-.menu h1{
-   margin: 5px;
-   padding-right: 10px;
-   color: white;
+   color: blue;
+   padding: 15px 15px;
    text-align: center;
-   font-size: 3em;
-   font-weight: bolder;
-   
-
-}
-.menu p{
-   padding-bottom: 30px;
-   font-size: 1.4em;
-   font-weight: bold;
-   color: white;
-}
-
-.menu nav{
-   font-weight: bold;
-   font-size: 1.2em;
-   margin: 20px;
-   color: white;
-   flex-direction: column;
-   justify-content: space-between;
-   
-   
-}
-.menu a {
-   padding: 20px;
-   color: white;
-   text-decoration: none;
-   border-radius: 5px;
-}
-
-.apresentacao{
-   display: flex;
-   margin: 10px;
-   padding: 20px;
-   flex-direction: row;
-   color: black;
-   
-}
-img{
-   display: flex;
-   width: 300px;
-   
-}
-
-.apresentacao p{
-   text-align: center;
-   font-size: 1.1em;
-   padding-top: 20px;
-   padding: 20px;
-   margin: 20px;
    align-items: center;
-   justify-content: space-between;
-   max-width: 400px;
-   min-width: 150px;
-}
-   
-h2{
-   font-weight: bold;
-   position: absolute;
-   margin: 20px;
-   color: blue;
-   font-size: 1.2em;
-   border-radius: 5px;
-   padding-top: 15px;
-   justify-content: space-between;
-   
+
    
 }
 
-.apresentacao img {
-   padding-left: 200px;
-   width: 550px;
-   margin: auto;
-   min-width: 320px;
-   height: 300px;
+header h1{
+   margin-top: 15px;
+   font-size: 3rem;
+
+   
 }
+nav{
+   margin-top: 50px;
+}
+a{
+   font-size: 1.2rem;
+   justify-content: space-between;
+   margin-top: 20px;
+   text-decoration: none;
+   color: blue;
+   cursor: pointer;
+   padding: 10px 20px;
+}
+@media(max-width: 700px){
+   header{ flex-direction: column;margin: 15px;}
+   header h1{ font-size: 2rem;}
+
+}
+header img{
+   margin: 15px 15px;
+   width: 200px;
+   height: 200px;
+}
+header .btn{
+text-decoration: none;
+margin-top: 10px;
+font-size: 2.5rem;
+cursor: pointer;
+color: white;
+border-radius: 5px;
+
+
+}
+.btn , a:hover{
+color: white;
+background-color: blue;
+}
+.capa{
+   background-image: url("energia.jpg");
+   background-size: cover;
+   height: 100vh;
+   display: flex;
+   text-align: center;
+   flex-direction: column;
+   align-items: top;
+   
+
+  
+}
+.capa h1{
+   color: white;
+   text-align:  center;
+   font-size: 2rem;
+   margin-top: 15px;
+}
+.capa p{
+   margin-top: 15px;
+   color: white;
+   font-size: 1.5rem;
+   text-align: center;
+}
+@media(max-width: 700px){
+   .capa { width: 77vh; background-image: url("logo.jpg");}
+   .capa img{height: 50vh;}
+   .capa h1{font-size: 1.5rem;}
+   .capa p{ font-size: 1rem;}
+   
+}
+.quem-somos{
+   box-sizing: border-box;
+   display: flex;
+   justify-content: space-around;
+   margin: 15px 15px;
+   align-items: center;
+}
+.quem-somos img{
+   max-width: 350px;
+   max-height: 400px;
+}
+.quem-somos h2{
+   align-items: center;
+   color: blue;
+   margin: 20px 15px;
+   text-align: left;
+}
+ .quem-somos #qs::before{
+   content: "";
+   width: 5px;
+   height: 50px;
+   margin-left: 5px;
+   background-color: blue;
+   position: relative;
+}
+.quem-somos p{
+   width: 350px;
+   margin: 15px 15px;
+   color: blue;
+   font-size: 1.3rem;
+}
+@media(max-width: 700px){
+   .quem-somos img{max-width: 230px;max-height: 280px;}
+   .quem-somos p{font-size: 1rem;}
+}
+
 .servicos{
-   border: 5px solid blue;
+   max-width: 1300px;
+   display: flex;
    justify-content: space-between;
    flex-direction: row;
-   align-items: flex-end;
-   
-   
+   text-align: center;
+   align-items: center;
+   margin: 15px 15px;
 }
+
 .servicos img{
-   width: 200px;
+   align-items: center;
+   width: 250px;
+   height: 200px;
 }
-
-.servicos h1{ 
-   text-decoration: underline;
-   padding-bottom: 400px;
-   margin: 5px;
+.servicos h2{
    color: blue;
-   font-weight: bold;
-   text-align: left;  
-}
-
-.lista a{
-   color: white;
-   background-color: rgb(0, 119, 255);
-   text-decoration: none;
-   width: 200px;
-   padding-top: 20px;
-   border-radius: 10px;
    text-align: center;
-   line-height: 20px;
-   margin: 5px;
-   font-size: 20px;
-   font-weight: 700;
-   
 }
-.lista p {
-   color: blue;
-   font-size: 20px;
-   text-align: center;
-   width: 200px;
-   padding-top: 10px;
-}
-
-
-a:hover{
-   text-decoration: underline;
-   background-color: deepskyblue;
-}
-
-
-
- 
- 
+@media(max-width: 700px){
+   .servicos{flex-direction: column; }
+   }
 

@@ -31,6 +31,7 @@ a{
    font-size: 1.2rem;
    justify-content: space-between;
    margin-top: 20px;
+   margin-right: 20px;
    text-decoration: none;
    color: blue;
    cursor: pointer;
@@ -85,7 +86,7 @@ background-color: blue;
    text-align: center;
 }
 @media(max-width: 700px){
-   .capa { width: 77vh; background-image: url("logo.jpg");}
+   .capa { background-image: url("energia\ 1.jpg");}
    .capa img{height: 50vh;}
    .capa h1{font-size: 1.5rem;}
    .capa p{ font-size: 1rem;}
@@ -123,8 +124,11 @@ background-color: blue;
    font-size: 1.3rem;
 }
 @media(max-width: 700px){
-   .quem-somos img{max-width: 230px;max-height: 280px;}
-   .quem-somos p{font-size: 1rem;}
+   .quem-somos img{max-width: 230px;max-height: 280px;margin:15px 15px;padding: 15px 15px;}
+   .quem-somos h2{font-size: 1rem;margin: 15px;}
+   .servicos{
+      margin: 15px 15px;
+   }
 }
 
 .servicos{
@@ -149,4 +153,42 @@ background-color: blue;
 @media(max-width: 700px){
    .servicos{flex-direction: column; }
    }
+   .cadastro{
+      width: 100%;
+      align-items: center;
+   }
 
+   form{
+      display: flex;
+      flex-direction: column;
+      margin: 20px 10px;
+      padding: 20px 10px;
+      align-items: center;
+      box-shadow: 4px;
+      border: 2px solid blue;
+      position: relative;
+      z-index: -1;
+      width: 250px;
+      gap: 10px;
+   }
+   input{
+      outline: none;
+      border-color: black;
+      border: 2px solid blue;
+      background-color: rgb(0, 140, 255);
+      color: white;
+      font-size: 1rem;
+   }
+   label{
+      margin: 3px;
+   }
+   button{
+    padding: 16px 32px;
+    background-color: transparent;
+    font-weight: 900;
+    font-family: var(--featured-font-family);
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 1s;
+  }

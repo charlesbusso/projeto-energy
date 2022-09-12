@@ -181,8 +181,8 @@ background-color: blue;
    }
 
    .formulario form{
-      background-color: blue;
-      color: white;
+      background-color: white;
+      color: blue;
       display: flex;
       flex-direction: column;
       margin: 15px 15px;
@@ -198,7 +198,6 @@ background-color: blue;
       width: 90%;
       border-radius: 7px;
       outline: none;
-      color: blue;
       border: 2px solid blue;
       color: white;
       font-size: 1rem;

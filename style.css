@@ -191,6 +191,7 @@ background-color: blue;
       max-width: 90%;
       gap: 10px;
       text-align: center;
+      Border: 2px solid blue;
    }
 
    
@@ -276,7 +277,8 @@ background-color: blue;
       .caracteristicas p{
          font-size: 0.8rem;
          text-align: center;
-         Width: 80%;
+         Width: 100%;
+         Align-items: center;
       }
       
 

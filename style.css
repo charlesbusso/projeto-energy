@@ -62,7 +62,7 @@ color: white;
 background-color: blue;
 }
 .capa{
-   background-image: url("energia.jpg");
+   background-image: url("imagens/energia\ 1.jpg");
    background-size: cover;
    height: 100vh;
    display: flex;
@@ -86,7 +86,7 @@ background-color: blue;
    text-align: center;
 }
 @media(max-width: 700px){
-   .capa { background-image: url("energia\ 1.jpg");}
+   .capa { background-image: url("imagens/energia\ 1.jpg");max-width: 100vh;}
    .capa img{height: 50vh;}
    .capa h1{font-size: 1.5rem;}
    .capa p{ font-size: 1rem;}
@@ -104,6 +104,7 @@ background-color: blue;
    max-height: 400px;
 }
 .quem-somos h2{
+   font-size: 2.5rem;
    align-items: center;
    color: blue;
    margin: 20px 15px;
@@ -124,24 +125,26 @@ background-color: blue;
    font-size: 1.3rem;
 }
 @media(max-width: 700px){
+   .quem-somos{flex-direction: column;display: flex;align-items: center;text-align: center;}
+   #qs{font-size: 3rem;}
    .quem-somos img{max-width: 230px;max-height: 280px;margin:15px 15px;padding: 15px 15px;}
    .quem-somos h2{font-size: 1rem;margin: 15px;}
-   .servicos{
-      margin: 15px 15px;
+   
    }
-}
+
 
 .servicos{
    max-width: 1300px;
    display: flex;
    justify-content: space-between;
-   flex-direction: row;
    text-align: center;
    align-items: center;
-   margin: 15px 15px;
+   margin: 20px 10px;
+   padding: 10px 20px;
 }
 
 .servicos img{
+   margin: 10px 5px;
    align-items: center;
    width: 250px;
    height: 200px;
@@ -151,44 +154,132 @@ background-color: blue;
    text-align: center;
 }
 @media(max-width: 700px){
-   .servicos{flex-direction: column; }
+   .servicos{flex-direction: column; align-items: center;}
+   .servicos img{padding-top: 30px; margin-bottom: 30px;}
+   
    }
-   .cadastro{
-      width: 100%;
+   .formulario {
+      display: flex;
+      justify-content: space-around;
+      margin: 15px 15px;
+      align-items: center;
+   }
+   .formulario h2{
+      margin: 30px 100px;
+      color: blue;
+      font-weight: 700px;
+      font-size: 2rem;
+
+   }
+   .formulario .cadastro{
+      margin: 30px;
+      width: 300px;
+      text-align: center;
+      color: blue;
+      font-size: 1.2rem;
       align-items: center;
    }
 
-   form{
+   .formulario form{
+      background-color: blue;
+      color: white;
       display: flex;
       flex-direction: column;
-      margin: 20px 10px;
-      padding: 20px 10px;
+      margin: 15px 15px;
+      padding: 10px 2px;
       align-items: center;
-      box-shadow: 4px;
-      border: 2px solid blue;
-      position: relative;
-      z-index: -1;
-      width: 250px;
+      max-width: 90%;
       gap: 10px;
+      text-align: center;
    }
+
+   
    input{
+      width: 90%;
+      border-radius: 7px;
       outline: none;
-      border-color: black;
+      color: blue;
       border: 2px solid blue;
-      background-color: rgb(0, 140, 255);
-      color: white;
       font-size: 1rem;
+      padding: 5px 5px; 
+      
    }
-   label{
-      margin: 3px;
-   }
-   button{
-    padding: 16px 32px;
+   
+   button{  
     background-color: transparent;
-    font-weight: 900;
-    font-family: var(--featured-font-family);
+    font-weight: 700;
     font-size: 1.25rem;
     text-transform: uppercase;
-    cursor: pointer;
-    transition: 1s;
-  }
+    flex-direction: column;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    
+   }
+   button:hover{
+      cursor: pointer;
+
+   }
+   @media(max-width: 700px){
+      .formulario{ flex-direction: column;  align-items: center;}
+      
+
+   }
+   .caracteristicas{
+      border-color: blue;
+   }
+   .caracteristicas h1{
+      color: blue;
+      font-size: 2.5rem;
+      text-align: center;
+   }
+    .caracteristicas p{
+      text-align: center;
+      color: blue;
+      font-size: 1.2rem;
+   }
+   ul{
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+
+   }
+  
+   li{
+      display: flex;
+      flex-direction: column;
+      padding: 15px 15px;
+      text-align: center;
+      width: 100vh;
+      
+   }
+   li i{
+      font-size: 50px;
+      color: blue;
+   }
+   li h2{
+      color: blue;
+      font-size: 2.5rem;
+   }
+   li p{
+      color: blue;
+      font-size: 1.2rem;
+   }
+   @media(max-width: 700px){
+      .caracteristicas ul{
+         flex-direction: column;
+         align-items: center;
+         text-align: center;
+      
+      }
+      .caracteristicas p{
+         font-size: 1rem;
+         text-align: center;
+      }
+      
+
+   }
+
+   
+  

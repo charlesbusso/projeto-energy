@@ -212,9 +212,9 @@ background-color: blue;
     text-transform: uppercase;
     flex-direction: column;
     display: flex;
-    border: 2px solid white;
+    border: 2px solid blue;
     border-radius: 10px;
-    color: white;
+    color: blue;
     
    }
    button:hover{
@@ -274,7 +274,7 @@ background-color: blue;
       
       }
       .caracteristicas p{
-         font-size: 1rem;
+         font-size: 0.8rem;
          text-align: center;
       }
       

@@ -274,7 +274,7 @@ background-color: blue;
          text-align: center;
       
       }
-      .caracteristicas p{
+      .caracteristicas p,li{
          font-size: 0.8rem;
          text-align: center;
          Width: 80%;

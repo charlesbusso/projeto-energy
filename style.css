@@ -270,13 +270,14 @@ background-color: blue;
       text-align: center;
    }
    @media(max-width: 700px){
-      .caracteristicas{
+      .caracteristicas ul, li{
          flex-direction: column;
          align-items: center;
          text-align: center;
       
       }
-      .caracteristicas ul,p{
+      .caracteristicas p{
+         font-size: 0.8rem;
          text-align: center;
          Align-items: center;
          flex-direction: column;

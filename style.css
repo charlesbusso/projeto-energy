@@ -276,7 +276,7 @@ background-color: blue;
          text-align: center;
       
       }
-      .caracteristicas li,p{
+      .caracteristicas ul,p{
          text-align: center;
          Align-items: center;
          flex-direction: column;

@@ -279,7 +279,6 @@ background-color: blue;
       .caracteristicas p{
          font-size: 0.8rem;
          text-align: center;
-         Align-items: center;
          flex-direction: column;
          
       }

@@ -283,6 +283,9 @@ background-color: blue;
          flex-direction: column;
          
       }
+      .caracteristicas li, p{
+        text-align: center;
+        
       
 
    }

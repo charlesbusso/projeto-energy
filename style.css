@@ -253,7 +253,7 @@ background-color: blue;
       flex-direction: column;
       padding: 15px 15px;
       text-align: center;
-      width: 100vh;
+      
       
    }
    li i{
@@ -279,7 +279,6 @@ background-color: blue;
       .caracteristicas p{
          font-size: 0.8rem;
          text-align: center;
-         flex-direction: column;
          
       }
       .caracteristicas li,p{

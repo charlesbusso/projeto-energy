@@ -125,9 +125,8 @@ background-color: blue;
    .quem-somos{flex-direction: column;display: flex;align-items: center;text-align: center;}
    #qs{font-size: 3rem;}
    .quem-somos img{max-width: 230px;max-height: 280px;margin:15px 15px;padding: 15px 15px;}
-   .quem-somos h2{font-size: 1rem;margin: 15px;}
-   
-   }
+   .quem-somos h2{font-size: 1.5rem;margin: 15px;}
+   .quem-somos p{font-size: 1rem;}
 
 
 .servicos{

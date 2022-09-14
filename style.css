@@ -248,13 +248,13 @@ background-color: blue;
    }
    .caracteristicas h1{
       color: blue;
-      font-size: 2.5rem;
+      font-size: 2rem;
       text-align: center;
    }
     .caracteristicas p{
       text-align: center;
       color: blue;
-      font-size: 1.2rem;
+      font-size: 1rem;
    }
    ul{
       display: flex;

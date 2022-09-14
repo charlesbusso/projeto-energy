@@ -90,7 +90,7 @@ background-color: blue;
    text-align: center;
 }
 @media(max-width: 700px){
-   .capa { background-image: url("imagens/energia\ 1.jpg");width: 100%;}
+   .capa { background-image: url("imagens/energia\ 1.jpg");width: 300px;}
    .capa img{height: 50vh;}
    .capa h1{font-size: 1.5rem;}
    .capa p{ font-size: 1rem;}

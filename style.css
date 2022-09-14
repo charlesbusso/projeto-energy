@@ -245,6 +245,8 @@ background-color: blue;
    }
    .caracteristicas{
       border-color: blue;
+      align-itens: center;
+      text-align: center;
    }
    .caracteristicas h1{
       color: blue;

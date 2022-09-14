@@ -257,6 +257,7 @@ background-color: blue;
       text-align: center;
       color: blue;
       font-size: 1rem;
+      margin: 5px 20px;
    }
    ul{
       display: flex;

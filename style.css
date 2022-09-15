@@ -29,6 +29,10 @@ a{
    color: blue;
    cursor: pointer;
    padding: 10px 20px;
+   
+}
+.logo:hover{
+   background-color: white;
 }
 @media(max-width: 700px){
    header{ flex-direction: column;margin: 5px 5px;}

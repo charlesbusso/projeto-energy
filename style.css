@@ -281,9 +281,13 @@ background-color: blue;
       
       
    }
-   li{
+   li i{
       font-size: 50px;
       color: blue;
+   }
+   .caracteristicas li a:hover{
+      background-color: white;
+
    }
    li h2{
       color: blue;

@@ -6,16 +6,15 @@
 
 
 header{
-   width: 100%;
    display: flex;
    justify-content: space-around;
    color: blue;
    padding: 15px 15px;
    text-align: center;
    align-items: center;
-
    
 }
+
 
 nav{
    margin-top: 50px;
@@ -31,9 +30,7 @@ a{
    padding: 10px 20px;
    
 }
-.logo:hover{
-   background-color: white;
-}
+
 @media(max-width: 700px){
    header{ flex-direction: column;margin: 5px 0px;}
    
@@ -44,6 +41,7 @@ header img{
    margin: 15px 15px;
    width: 200px;
    height: 200px;
+   
 }
 header .btn{
 text-decoration: none;

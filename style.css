@@ -303,7 +303,7 @@ background-color: blue;
    footer{
       background-color: blue;
       color: white;
-      margin: 15px 25px; 
+      margin: 15px 5px; 
       height: 250px;
       flex-direction: column;
       display: flex;
@@ -326,12 +326,12 @@ background-color: blue;
    footer li{
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      
    }
-   footer  a{
+   footer li a{
       align-items: center;
       color: white;
-      font-size: 30px;
+      font-size: 20px;
       
    }
 

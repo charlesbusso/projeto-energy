@@ -127,6 +127,7 @@ background-color: blue;
    align-items: center;
    margin: 20px 10px;
    padding: 10px 20px;
+   
 }
 
 .servicos img{
@@ -152,6 +153,8 @@ background-color: blue;
       justify-content: space-around;
       margin: 15px 15px;
       align-items: center;
+      border: 3px solid blue;
+      border-radius: 10px;
    }
    .formulario h2{
       margin: 30px 100px;
@@ -159,6 +162,7 @@ background-color: blue;
       font-weight: 700px;
       font-size: 2rem;
       font-weight: bolder;
+      text-decoration: underline;
 
    }
    .formulario .cadastro{
@@ -236,11 +240,14 @@ background-color: blue;
       border-color: blue;
       align-items:  center;
       text-align: center;
+      
    }
+   
    .caracteristicas h1{
       color: blue;
       font-size: 2rem;
       text-align: center;
+      
    }
     .caracteristicas p{
       text-align: center;

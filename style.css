@@ -15,7 +15,10 @@ header{
    
 }
 header::before{
-   background: url("imagens/via-logo.png") no-repeat;
+   content: "";
+   position: absolute;
+   background-image: url("imagens/via-logo.png");
+   background-repeat: no-repeat;
    background-size: cover;
 }
 

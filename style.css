@@ -307,7 +307,7 @@ background-color: blue;
       height: 250px;
       flex-direction: column;
       display: flex;
-      max-width: 100%;
+      
       align-items: center;
       
    }

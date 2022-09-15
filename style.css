@@ -1,19 +1,14 @@
 @charset "UTF8";
 * {
     margin: 0;
-    padding: 0;
-    
-    
+    padding: 0;   
 }
-body{
-   min-width: 300px;
-   max-width: 1400px;
-}
+
 
 header{
    width: 100%;
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
    color: blue;
    padding: 15px 15px;
    text-align: center;
@@ -22,12 +17,6 @@ header{
    
 }
 
-header h1{
-   margin-top: 15px;
-   font-size: 3rem;
-
-   
-}
 nav{
    margin-top: 50px;
 }
@@ -42,8 +31,9 @@ a{
    padding: 10px 20px;
 }
 @media(max-width: 700px){
-   header{ flex-direction: column;margin: 15px;}
-   header h1{ font-size: 2rem;}
+   header{ flex-direction: column;margin: 5px 5px;}
+   
+  
 
 }
 header img{
@@ -66,13 +56,14 @@ color: white;
 background-color: blue;
 }
 .capa{
-   background-image: url("imagens/energia\ 1.jpg");
-   background-size: cover;
+   background-image: url("imagens/energy.jpg");
+   background-repeat: no-repeat;
    height: 100vh;
    display: flex;
    text-align: center;
    flex-direction: column;
-   align-items: top;
+   align-items: center;
+   margin: 0px 200px;
    
 
   
@@ -90,7 +81,7 @@ background-color: blue;
    text-align: center;
 }
 @media(max-width: 700px){
-   .capa { background-image: url("imagens/energia\ 1.jpg");width: 420px;}
+   .capa { background-image: url("imagens/energia.jpg");width: 420px;position: absolute;margin:0px 0px;align-items: center;}
    .capa img{height: 50vh;}
    .capa h1{font-size: 1.5rem;}
    .capa p{ font-size: 1rem;}
@@ -122,15 +113,14 @@ background-color: blue;
    font-size: 1.2rem;
 }
 @media(max-width: 700px){
-   .quem-somos{flex-direction: column;display: flex;align-items: center;text-align: center;}
-   #qs{font-size: 3rem;}
-   .quem-somos img{max-width: 230px;max-height: 280px;margin:15px 15px;padding: 15px 15px;}
-   .quem-somos h2{font-size: 1.5rem;margin: 15px;}
-   .quem-somos p{font-size: 1rem;text-align: center;}
-
+   .quem-somos{flex-direction: column;display: flex;align-items: center;text-align: center;margin-top: 400px;}
+   #qs{font-size: 2rem;}
+   .quem-somos img{max-width: 230px;max-height: 280px;margin-bottom: 20px; padding: 15px 15px;}
+   .quem-somos h2{font-size: 1.2rem;margin-bottom: 10px;}
+   .quem-somos p{font-size: 1.1rem;text-align: center;}
+ }
 
 .servicos{
-   max-width: 1300px;
    display: flex;
    justify-content: space-between;
    text-align: center;
@@ -244,7 +234,7 @@ background-color: blue;
    }
    .caracteristicas{
       border-color: blue;
-      align-itens: center;
+      align-items:  center;
       text-align: center;
    }
    .caracteristicas h1{

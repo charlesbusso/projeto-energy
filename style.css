@@ -74,6 +74,7 @@ background-color: blue;
    flex-direction: column;
    align-items: center;
    margin: 0px 200px;
+   background-position: center;
    
 
   
@@ -91,7 +92,7 @@ background-color: blue;
    text-align: center;
 }
 @media(max-width: 700px){
-   .capa { background-image: url("imagens/energia.jpg");width: 420px;position: absolute;margin:0px 0px;align-items: center;}
+   .capa { background-image: url("imagens/energia.jpg");width: 420px; background-position: center;margin:0px 0px;align-items: center;}
    .capa img{height: 50vh;}
    .capa h1{font-size: 1.5rem;}
    .capa p{ font-size: 1rem;}
@@ -123,7 +124,7 @@ background-color: blue;
    font-size: 1.2rem;
 }
 @media(max-width: 700px){
-   .quem-somos{flex-direction: column;display: flex;align-items: center;text-align: center;margin-top: 400px;}
+   .quem-somos{flex-direction: column;display: flex;align-items: center;text-align: center; background-position: center; margin-top: 400px;}
    #qs{font-size: 2rem;}
    .quem-somos img{max-width: 230px;max-height: 280px;margin-bottom: 20px; padding: 15px 15px;}
    .quem-somos h2{font-size: 1.2rem;margin-bottom: 10px;}
@@ -154,7 +155,7 @@ background-color: blue;
    text-align: center;
 }
 @media(max-width: 700px){
-   .servicos{flex-direction: column; align-items: center;}
+   .servicos{flex-direction: column; align-items: center; background-position: center;}
    .servicos img{padding-top: 30px; margin-bottom: 30px;}
    
    }
@@ -165,6 +166,7 @@ background-color: blue;
       align-items: center;
       border: 3px solid blue;
       border-radius: 10px;
+      background-position: center;
    }
    .formulario h2{
       margin: 30px 100px;
@@ -197,6 +199,7 @@ background-color: blue;
       text-align: center;
       Border: 2px solid blue;
       border-radius: 15px;
+      background-position: center;
    }
    
 

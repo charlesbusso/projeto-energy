@@ -74,7 +74,6 @@ background-color: blue;
    flex-direction: column;
    align-items: center;
    margin: 0px 200px;
-   background-position: center;
    
 
   
@@ -92,7 +91,7 @@ background-color: blue;
    text-align: center;
 }
 @media(max-width: 700px){
-   .capa { background-image: url("imagens/energia.jpg");width: 420px; background-position: center;margin:0px 0px;align-items: center;}
+   .capa { background-image: url("imagens/energia.jpg");width: 420px; position: absolute;margin:0px 0px;align-items: center;}
    .capa img{height: 50vh;}
    .capa h1{font-size: 1.5rem;}
    .capa p{ font-size: 1rem;}

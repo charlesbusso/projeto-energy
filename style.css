@@ -313,14 +313,14 @@ background-color: blue;
       .caracteristicas p{
          font-size: 1em;
          text-align: center;
-         margin-left: 85px;
+         margin-left: 35px;
          
       }
       .caracteristicas li,p{
         text-align: center;
         font-size: 1rem; margin-left: 35px;}
    
-        .características h1{ text-align: center; margin-left: 35p;}
+        .características h1{ text-align: center; margin-left: 35px;}
 }
    footer{
       background-color: blue;

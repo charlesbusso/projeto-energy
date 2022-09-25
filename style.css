@@ -306,7 +306,7 @@ background-color: blue;
          flex-direction: column;
          align-items: center;
          text-align: center;
-         margin-left: 20px;
+         margin-left: 10px;
       
       }
       
@@ -318,9 +318,8 @@ background-color: blue;
       }
       .caracteristicas li,p{
         text-align: center;
-        font-size: 1rem; margin-left: 25px;}
-   
-        .características h1{ text-align: center; margin-left: 55px;}
+        font-size: 1rem; margin-left: 15px;}
+        .características h1{ text-align: center; margin-left: 85px;}
 }
    footer{
       background-color: blue;

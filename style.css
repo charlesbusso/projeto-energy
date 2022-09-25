@@ -161,7 +161,7 @@ background-color: blue;
    .formulario {
       display: flex;
       justify-content: space-around;
-      margin-left; 40px;
+      margin-left; 30px;
       align-items: center;
       border: 3px solid blue;
       border-radius: 10px;
@@ -213,7 +213,7 @@ background-color: blue;
       padding: 5px 5px; 
       border-color: blue;
       margin: 5px;
-      margin-right: 20px;
+      margin-right: 5px;
       
    }
    input:hover{
@@ -306,21 +306,21 @@ background-color: blue;
          flex-direction: column;
          align-items: center;
          text-align: center;
-         margin-left: 30px;
+         margin-left: 20px;
       
       }
       
       .caracteristicas p{
          font-size: 1em;
          text-align: center;
-         margin-left: 35px;
+         margin-left: 45px;
          
       }
       .caracteristicas li,p{
         text-align: center;
-        font-size: 1rem; margin-left: 35px;}
+        font-size: 1rem; margin-left: 25px;}
    
-        .características h1{ text-align: center; margin-left: 35px;}
+        .características h1{ text-align: center; margin-left: 55px;}
 }
    footer{
       background-color: blue;

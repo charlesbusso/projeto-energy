@@ -155,8 +155,8 @@ background-color: blue;
 }
 @media(max-width: 700px){
    .servicos{flex-direction: column; align-items: center; background-position: center; margin-left: 35px;}
-   .servicos img{padding-top: 30px; margin-bottom: 30px; margin-left: 20px;}
-   .serviços h2{ margin-left: 55px;}
+   .servicos img{padding-top: 30px; margin-bottom: 30px; margin-left: 30px;}
+   .serviços h2{ margin-left: 65px;}
    .serviços p{ margin-left:20px;}
    }
 

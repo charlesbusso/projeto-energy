@@ -123,11 +123,11 @@ background-color: blue;
    font-size: 1.2rem;
 }
 @media(max-width: 700px){
-   .quem-somos{flex-direction: column;display: flex;align-items: center;text-align: center; background-position: center; margin-left: 20px; margin-top: 400px;}
+   .quem-somos{flex-direction: column;display: flex;align-items: center;text-align: center; background-position: center; margin-left: 50px; margin-top: 250px;}
    #qs{font-size: 2rem;}
-   .quem-somos img{max-width: 230px;max-height: 280px;margin-bottom: 20px; padding: 15px 5px; margin-left: 20px;}
-   .quem-somos h2{font-size: 1.2rem;margin-bottom: 10px; margin-left: 20px;}
-   .quem-somos p{font-size: 1.1rem;text-align: center; margin-left: 20px;}
+   .quem-somos img{max-width: 230px;max-height: 300px;margin-bottom: 20px; padding: 15px 5px; margin-left: 45px;}
+   .quem-somos h2{font-size: 1.2rem;margin-bottom: 10px; margin-left: 40px;}
+   .quem-somos p{font-size: 1.1rem;text-align: center; margin-left: 40px;}
  }
 
 .servicos{
@@ -157,7 +157,9 @@ background-color: blue;
    .servicos{flex-direction: column; align-items: center; background-position: center; margin-left: 35px;}
    .servicos img{padding-top: 30px; margin-bottom: 30px;}
    .serviços h2{ margin-left: 35px;}
+   .serviços p{ margin-left:20px;}
    }
+
    .formulario {
       display: flex;
       justify-content: space-around;
@@ -191,7 +193,7 @@ background-color: blue;
       color: blue;
       display: flex;
       flex-direction: column;
-      margin-left: 20px;
+      margin-left: 40px;
       padding: 10px 5px;
       align-items: center;
       max-width: 90%;
@@ -211,8 +213,8 @@ background-color: blue;
       font-size: 1rem;
       padding: 5px 5px; 
       border-color: blue;
-      margin: 5px;
-      margin-right: 5px;
+      margin: 2px;
+      margin-right: 2px;
       
    }
    input:hover{
@@ -244,7 +246,7 @@ background-color: blue;
 
    }
    @media(max-width: 700px){
-      .formulario{ flex-direction: column;  align-items: center;text-align: center; margin-left: 45px;}
+      .formulario{ flex-direction: column;  align-items: center;text-align: center; margin-left: 50px;}
       .form { margin-left:10px;}
 
    }
@@ -321,6 +323,7 @@ background-color: blue;
       .caracteristicas h1{ text-align: center; margin-left: 45px;}
 }
    footer{
+      width: 100%;
       background-color: blue;
       color: white;
       margin: 15px 15px; 

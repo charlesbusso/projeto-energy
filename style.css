@@ -245,7 +245,7 @@ background-color: blue;
 
    }
    @media(max-width: 700px){
-      .formulario{ flex-direction: column;  align-items: center;text-align: center; margin-left: 30px;}
+      .formulario{ flex-direction: column;  align-items: center;text-align: center; margin-left: 50px;}
       
 
    }
@@ -306,19 +306,19 @@ background-color: blue;
          flex-direction: column;
          align-items: center;
          text-align: center;
-         margin-left: 20px;
+         margin-left: 30px;
       
       }
       
       .caracteristicas p{
          font-size: 1em;
          text-align: center;
-         margin-left: 35px;
+         margin-left: 55px;
          
       }
       .caracteristicas li,p{
         text-align: center;
-        font-size: 1rem; margin-left: 35px;}
+        font-size: 1rem; margin-left: 55px;}
    }
    footer{
       background-color: blue;

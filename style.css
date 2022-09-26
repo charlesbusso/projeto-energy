@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;   
+    box-sizing: border-box;
 }
 
 
@@ -14,17 +15,11 @@ header{
    align-items: center;
    
 }
-header::before{
-   content: "";
-   position: absolute;
-   background-image: url("imagens/via-logo.png");
-   background-repeat: no-repeat;
-   background-size: cover;
-}
+
 
 
 nav{
-   margin-top: 30px;
+   margin-top: 20px;
 }
 a{
    font-size: 1.2rem;
@@ -39,8 +34,8 @@ a{
 }
 
 @media(max-width: 700px){
-   header{ flex-direction: column;margin: 5px 0px;}
-  
+   header{ flex-direction: column;margin: 5px 5px; }
+   header nav{ text-align: center; align-items: center;justify-content: space-around;}
    
   
 
@@ -68,12 +63,14 @@ background-color: blue;
 .capa{
    background-image: url("imagens/energy.jpg");
    background-repeat: no-repeat;
-   height: 100vh;
+   min-height: 100vh;
    display: flex;
    text-align: center;
    flex-direction: column;
+   justify-content: center;
    align-items: center;
-   margin: 0px 200px;
+   background-position: center;
+   margin-bottom: 20px;
    
 
   
@@ -83,15 +80,16 @@ background-color: blue;
    text-align:  center;
    font-size: 2rem;
    margin-top: 15px;
+   
 }
 .capa p{
-   margin-top: 15px;
+   margin-top: 25px;
    color: white;
    font-size: 1.5rem;
    text-align: center;
 }
 @media(max-width: 700px){
-   .capa { background-image: url("imagens/energia.jpg");width: 420px; position: absolute;margin:0px 0px;align-items: center;}
+   .capa { background-image: url("imagens/energia.jpg"); position: absolute;margin:0px 0px;align-items: center;}
    .capa img{height: 50vh;}
    .capa h1{font-size: 1.5rem;}
    .capa p{ font-size: 1rem;}

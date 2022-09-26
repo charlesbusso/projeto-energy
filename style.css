@@ -79,27 +79,25 @@ background-color: blue;
    color: white;
    text-align:  center;
    font-size: 2rem;
-   margin-top: 15px;
-   
+   margin-bottom: 150px;
+   font-weight: bolder;
 }
 .capa p{
-   margin-top: 25px;
+   margin-top: 230px;
    color: white;
    font-size: 1.5rem;
    text-align: center;
+   font-weight: bolder;
 }
 @media(max-width: 700px){
-   .capa { background-image: url("imagens/energia.jpg"); position: absolute;margin:0px 0px;align-items: center;}
-   .capa img{height: 50vh;}
-   .capa h1{font-size: 1.5rem;}
-   .capa p{ font-size: 1rem;}
+   .capa { background-image: url("imagens/energia.jpg"); margin:0px 0px;align-items: center;}
+   .capa h1{font-size: 1.5rem; margin-bottom: 150px;font-weight: bolder;}
+   .capa p{ font-size: 1rem; margin-top: 100px;font-weight: bolder;}
    
 }
 .quem-somos{
-   box-sizing: border-box;
    display: flex;
    justify-content: space-around;
-   margin: 15px 15px;
    align-items: center;
 }
 .quem-somos img{
@@ -121,9 +119,9 @@ background-color: blue;
    font-size: 1.2rem;
 }
 @media(max-width: 700px){
-   .quem-somos{flex-direction: column;display: flex;align-items: center;text-align: center; background-position: center; margin-left: 50px; margin-top: 350px;}
+   .quem-somos{flex-direction: column;display: flex;align-items: center;text-align: center; background-position: center; margin-top: 10px;}
    #qs{font-size: 2rem;}
-   .quem-somos img{max-width: 230px;max-height: 250px;margin-bottom: 20px; padding: 5px 5px; margin-left: 55px;}
+   .quem-somos img{max-width: 250px;max-height: 230px;margin-bottom: 20px; padding: 5px 5px;background-position: center; align-items: center;margin-left: 50px;}
    .quem-somos h2{font-size: 1.2rem;margin-bottom: 10px; margin-left: 50px;}
    .quem-somos p{font-size: 1.1rem;text-align: center; margin-left: 50px;}
  }
@@ -133,18 +131,20 @@ background-color: blue;
    justify-content: space-between;
    text-align: center;
    align-items: center;
-   margin: 20px 10px;
-   padding: 10px 10px;
+   margin-top: 20px;
+   padding: 20px 10px;
+   margin-left: 10px;
    
 }
 
 .servicos img{
-   margin: 10px 0px;
+   margin: 5px 0px;
    align-items: center;
    width: 250px;
    height: 250px;
    object-fit: cover;
    border: 2px solid blue;
+   
    
 }
 .servicos h2{
@@ -152,10 +152,10 @@ background-color: blue;
    text-align: center;
 }
 @media(max-width: 700px){
-   .servicos{flex-direction: column; align-items: center; background-position: center; margin-left: 35px;}
-   .servicos img{padding-top: 30px; margin-bottom: 30px; margin-left: 30px;}
-   .servicos h2{ margin-left: 45px;}
-   .servicos p{ margin-left:20px;}
+   .servicos{flex-direction: column; align-items: center; background-position: center; text-align: center;}
+   .servicos img{ margin-bottom: 30px; background-position: center;}
+   .servicos h2{ text-align: center;}
+   
    }
 
    .formulario {

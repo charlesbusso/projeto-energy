@@ -200,7 +200,7 @@ background-color: blue;
       margin-left: 20px;
       padding: 10px 5px;
       align-items: center;
-      max-width: 90%;
+      width: 300px;
       gap: 10px;
       text-align: center;
       Border: 2px solid blue;
@@ -210,7 +210,7 @@ background-color: blue;
 
    
    input{
-      width: 90%;
+      width: 200px;
       border-radius: 7px;
       border: 2px solid blue;
       color: blue;
@@ -229,7 +229,7 @@ background-color: blue;
    button{  
     background-color: transparent;
     font-weight: 700;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     text-transform: uppercase;
     flex-direction: column;
     display: flex;
@@ -238,7 +238,7 @@ background-color: blue;
     color: blue;
     margin: 5px 5px;
     padding: 4px 4px;
-    width: 80%;
+    width: 60%;
     align-items: center;
     
     
@@ -250,13 +250,16 @@ background-color: blue;
 
    }
    @media(max-width: 700px){
-      .formulario{ flex-direction: column;  align-items: center;text-align: center;}
+      .formulario{  flex-direction: column;  align-items: center;text-align: center;margin-right: 15px;}
+      .formulario h2 { text-align: center; padding-bottom: 10px; margin-right: 40px;}
+      .formulario p{text-align: center; padding-bottom: 10px; margin-right: 40px;}
+      form{padding: 10px; width: 70%;}
+      form input{align-items: center; margin-left: 18px;width: 100%;}
       
-      .formulario h2 { text-align: center; padding-bottom: 10px;}
-      .formulario p{text-align: center; padding-bottom: 10px;
-      }
-
+       
+      
    }
+   
    .caracteristicas{
       border-color: blue;
       align-items:  center;
@@ -335,7 +338,7 @@ background-color: blue;
       width: 100%;
       background-color: blue;
       color: white;
-      margin: 15px 15px; 
+      margin: 15px 5px; 
       height: 200px;
       flex-direction: column;
       display: flex;
@@ -361,11 +364,16 @@ background-color: blue;
       flex-direction: row;
       
    }
-   footer li a{
+   footer i{
       align-items: center;
       color: white;
       font-size: 25px;
    
+   }
+   footer p{
+      color: white;
+      font-size: 15px;
+      padding-top: 10px;
    }
 
    

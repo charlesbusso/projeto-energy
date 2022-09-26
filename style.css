@@ -91,8 +91,8 @@ background-color: blue;
 }
 @media(max-width: 700px){
    .capa { background-image: url("imagens/energia.jpg"); margin:0px 0px;align-items: center;}
-   .capa h1{font-size: 1.5rem; margin-bottom: 150px;font-weight: bolder;}
-   .capa p{ font-size: 1rem; margin-top: 100px;font-weight: bolder;}
+   .capa h1{font-size: 1.5rem; margin-bottom: 120px;font-weight: bolder;}
+   .capa p{ font-size: 1rem; margin-top: 70px;font-weight: bolder;}
    
 }
 .quem-somos{
@@ -121,9 +121,9 @@ background-color: blue;
 @media(max-width: 700px){
    .quem-somos{flex-direction: column;display: flex;align-items: center;text-align: center; background-position: center; margin-top: 10px;}
    #qs{font-size: 2rem;}
-   .quem-somos img{max-width: 250px;max-height: 230px;margin-bottom: 20px; padding: 5px 5px;background-position: center; align-items: center;margin-left: 50px;}
-   .quem-somos h2{font-size: 1.2rem;margin-bottom: 10px; margin-left: 50px;}
-   .quem-somos p{font-size: 1.1rem;text-align: center; margin-left: 50px;}
+   .quem-somos img{max-width: 250px;max-height: 230px;margin-bottom: 20px; padding: 5px 5px;background-position: center; align-items: center;margin-left: 40px;}
+   .quem-somos h2{font-size: 1.2rem;margin-bottom: 10px; margin-left: 40px;}
+   .quem-somos p{font-size: 1.1rem;text-align: center; margin-left: 40px;}
  }
 
 .servicos{
@@ -269,8 +269,8 @@ background-color: blue;
    }
    ul{
       display: flex;
-      width: 100%;
       justify-content: space-around;
+      align-items: center;
       
 
    }
@@ -302,6 +302,7 @@ background-color: blue;
    }
    @media(max-width: 700px){
       .caracteristicas ul, li{
+         display: flex;
          flex-direction: column;
          align-items: center;
          text-align: center;
@@ -310,7 +311,7 @@ background-color: blue;
       }
       
       .caracteristicas p{
-         font-size: 1em;
+         font-size: 1.1em;
          text-align: center;
          margin-left: 55px;
          
@@ -318,7 +319,7 @@ background-color: blue;
       .caracteristicas li,p{
         text-align: center;
         font-size: 1rem; margin-left: 15px;}
-      .caracteristicas h1{ text-align: center; margin-left: 45px; font-size: 1.5rem;}
+      .caracteristicas h1{ text-align: center; margin-left: 45px; font-size: 1.6rem;padding-bottom: 15px;}
 }
    footer{
       width: 100%;

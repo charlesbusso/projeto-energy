@@ -210,7 +210,7 @@ background-color: blue;
 
    
    input{
-      width: 280px;
+      width: 300px;
       border-radius: 7px;
       border: 2px solid blue;
       color: blue;
@@ -254,7 +254,7 @@ background-color: blue;
       .formulario h2 { text-align: center; padding-bottom: 10px; margin-right: 20px;}
       .formulario p{text-align: center; padding-bottom: 10px; margin-right: 20px;}
       form{padding: 10px; width: 70%;}
-      form input{align-items: center; margin-left: 18px;width: 100%;}
+      form input{align-items: center; margin-left: 5px;width: 100%;}
       
        
       

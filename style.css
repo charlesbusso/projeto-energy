@@ -369,13 +369,14 @@ form{
       width: 100%;
       background-color: blue;
       color: white;
-      margin: 15px 5px; 
+      margin-top: 15px; 
       height: 200px;
       flex-direction: column;
       display: flex;
       font-size: 1.1rem;
       align-items: center;
       text-align: center;
+      
       
    }
    footer p{

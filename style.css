@@ -157,74 +157,48 @@ background-color: blue;
    .servicos h2{ text-align: center;}
    
    }
-
-   .formulario {
-      display: flex;
-      justify-content: space-around;
-      margin-left: 30px;
-      align-items: center;
-      
-      border-radius: 10px;
-     
-   }
-   .formulario h2{
-      margin-top: 30px;
-      margin-left: 30px;
-      color: blue;
-      font-weight: 700px;
-      font-size: 2rem;
-      font-weight: bolder;
-      text-decoration: underline;
-
-   }
-   .formulario .cadastro{
-      margin-left: 30px;
-      width: 300px;
-      text-align: center;
-      color: blue;
-      font-size: 1.2rem;
-      align-items: center;
-   }
-   .formulario hr{
-      width: 300px;
-      height: 3px;
-      color: blue;
+   .container{
       background-color: blue;
-   }
-
-   form{
-      background-color: white;
-      color: blue;
-      display: flex;
-      flex-direction: column;
-      margin-left: 20px;
-      padding: 10px 5px;
-      align-items: center;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px blue;
       width: 300px;
-      gap: 10px;
-      text-align: center;
-      Border: 2px solid blue;
-      border-radius: 15px;
-   }
+      overflow: hidden;
+  }
+form{
+   padding: 20px;
+}
+.form-control{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.form-control label{
+   display: inline-block;
+   margin-bottom: 5px;
+}
+.form-control input{
+   border: 2px solid blue;
+   display: block;
+   border-radius: 10px;
+   font-size: 14px;
+   width: 100%;
+   padding: 10px;
+}
+.form-control i{
+   visibility: hidden;
+   position: absolute;
+   top: 10px;
+   right: 10px;
+
+}
+.form-control small{
+   position: absolute;
+   bottom: 0;
+   left: 0;
+}
    
 
    
-   input{
-      width: 200px;
-      border-radius: 7px;
-      border: 2px solid blue;
-      color: blue;
-      font-size: 1rem;
-      padding: 5px 5px; 
-      border-color: blue;
-      margin: 2px;
-      margin-right: 2px;
-      
-   }
-   input:hover{
-      background-color: rgb(0, 153, 255);
-      
-   }
    
    button{  
     background-color: transparent;
@@ -250,15 +224,7 @@ background-color: blue;
 
    }
    @media(max-width: 700px){
-      .formulario{  flex-direction: column;  align-items: center;text-align: center;margin-right: 15px;}
-      .formulario h2 { text-align: center; padding-bottom: 10px; margin-right: 40px;}
-      .formulario p{text-align: center; padding-bottom: 10px; margin-right: 40px;}
-      form{padding: 10px; width: 70%;}
-      form input{align-items: center; margin-left: 18px;width: 100%;}
       
-       
-      
-   }
    
    .caracteristicas{
       border-color: blue;

@@ -87,19 +87,36 @@
         <form action="cadastro.js" method="post" autocomplete="on">
              
                 
-                    <p>
-                        <label for="Name"></label>
-                        <input type="text" name="name" required placeholder="nome">
-                    </p>
-                    <p>
-                        <label for="sobrenome"></label>
-                        <input type="text" name="sobrenome" required placeholder="sobrenome">
-                    </p>
-                    <p>
-                        <label for="txtmail"></label>
-                        <input type="email" name="email" required placeholder="email">
-                    </p>
-                                          
+                    
+                        <div class="form-control">
+                            <label for="Name"></label>
+                            <input type="text" id="username" required placeholder="nome do usuário...">
+                            <i><i class="icofont-exclamation-circle"></i></i>
+                            <i><i class="icofont-check-circled"></i></i>
+                            <small>Mensagem de erro</small>
+                        </div>
+                        <div class="form-control">
+                            <label for="Email"></label>
+                            <input type="text" id="email" required placeholder="digite seu email...">
+                            <i><i class="icofont-exclamation-circle"></i></i>
+                            <i><i class="icofont-check-circled"></i></i>
+                            <small>Mensagem de erro</small>
+                        </div>
+                        <div class="form-control">
+                            <label for="senha"></label>
+                            <input type="password" id="password" required placeholder="digite sua senha...">
+                            <i><i class="icofont-exclamation-circle"></i></i>
+                            <i><i class="icofont-check-circled"></i></i>
+                            <small>Mensagem de erro</small>
+                        </div>
+                        <div class="form-control">
+                            <label for="password-confirmation"></label>
+                            <input type="password" id="password-confirmation" required placeholder="digite sua senha novamente...">
+                            <i><i class="icofont-exclamation-circle"></i></i>
+                            <i><i class="icofont-check-circled"></i></i>
+                            <small>Mensagem de erro</small>
+                        </div>
+                                   
                        <button>cadastrar</button>      
                        <button type="reset">limpar</button>                            
         </form>
@@ -118,8 +135,9 @@
         <p>Desenvolvido por Charles Busso para aprimoramento de HTML5 e CSS3 com Flexbox</p>
         
     </footer>
-    "https://kit.fontawesome.com/3041a37b3f.js" crossorigin="anonymous"
-    <script src=""></script>
+    <script src="https://kit.fontawesome.com/3041a37b3f.js" crossorigin="anonymous"></script>
+
+    <script src="cadastro.js"></script>
 
 </body>
 </html>

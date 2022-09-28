@@ -251,10 +251,10 @@ background-color: blue;
    }
    @media(max-width: 700px){
       .formulario{  flex-direction: column;  align-items: center;text-align: center;margin-right: 5px;}
-      .formulario h2 { text-align: center; padding-bottom: 10px; margin-right: 35px;}
-      .formulario p{text-align: center; padding-bottom: 10px; margin-right: 30px;}
-      form{padding: 10px; width: 70%;}
-      form input{align-items: center; margin-left: 5px;width: 100%;}
+      .formulario h2 { text-align: center; padding-bottom: 10px; margin-right: 45px;}
+      .formulario p{text-align: center; padding-bottom: 10px; margin-right: 45px;}
+      form{padding: 10px; width: 90%;}
+      form input{align-items: center; margin-left: 5px;width: 300px;}
       
        
       

@@ -196,9 +196,11 @@ background-color: blue;
    
 .form{
    padding: 20px;
-   width: 280px;
+   width: 300px;
    border: 2px solid blue;
    align-items: center;
+   border-radius: 10px;
+   justify-content: center;
 
 }
 .form-control{
@@ -216,7 +218,7 @@ background-color: blue;
    border-radius: 10px;
    font-size: 14px;
    width: 100%;
-   padding: 8px;
+   padding: 10px;
 }
 .form-control i{
    visibility: hidden;

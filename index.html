@@ -79,48 +79,49 @@
             </li>
         </ul>
     </section>
-    <section class="formulario">
+    <section class="container">
         <hr>
         <h2>Cadastro</h2>
         <p class="cadastro">É só preencher nosso cadastro pra receber nossas ofertas, e um orçamento gratuito de nossos serviços. É fácil, simples e rápido.</p>
         
-        <form action="cadastro.js" method="post" autocomplete="on">
+        <form id="form" class="form">
              
                 
                     
                         <div class="form-control">
-                            <label for="Name"></label>
-                            <input type="text" id="username" required placeholder="nome do usuário...">
+                            <label for="username">Nome de usuário</label>
+                            <input type="text" id="username" placeholder="nome do usuário...">
                             <i><i class="icofont-exclamation-circle"></i></i>
                             <i><i class="icofont-check-circled"></i></i>
                             <small>Mensagem de erro</small>
                         </div>
                         <div class="form-control">
-                            <label for="Email"></label>
-                            <input type="text" id="email" required placeholder="digite seu email...">
+                            <label for="email">Email</label>
+                            <input type="text" id="email" placeholder="digite seu email...">
                             <i><i class="icofont-exclamation-circle"></i></i>
                             <i><i class="icofont-check-circled"></i></i>
                             <small>Mensagem de erro</small>
                         </div>
                         <div class="form-control">
-                            <label for="senha"></label>
-                            <input type="password" id="password" required placeholder="digite sua senha...">
+                            <label for="password">Senha</label>
+                            <input type="password" id="password" placeholder="digite sua senha...">
                             <i><i class="icofont-exclamation-circle"></i></i>
                             <i><i class="icofont-check-circled"></i></i>
                             <small>Mensagem de erro</small>
                         </div>
                         <div class="form-control">
-                            <label for="password-confirmation"></label>
-                            <input type="password" id="password-confirmation" required placeholder="digite sua senha novamente...">
+                            <label for="password-confirmation">Senha</label>
+                            <input type="password" id="password-confirmation" placeholder="digite a senha novamente...">
                             <i><i class="icofont-exclamation-circle"></i></i>
                             <i><i class="icofont-check-circled"></i></i>
                             <small>Mensagem de erro</small>
                         </div>
                                    
-                       <button>cadastrar</button>      
-                       <button type="reset">limpar</button>                            
+                       <button type="submit">cadastrar</button>      
+                                                  
         </form>
     </section>
+    
     <footer>
         <ul>
             <li>
@@ -137,7 +138,7 @@
     </footer>
     <script src="https://kit.fontawesome.com/3041a37b3f.js" crossorigin="anonymous"></script>
 
-    <script src="cadastro.js"></script>
+    <script src="script.js"></script>
 
 </body>
 </html>

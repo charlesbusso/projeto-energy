@@ -158,19 +158,18 @@ background-color: blue;
    
    }
    .container{
-      background-color: blue;
+      background-color: #fafafa;
       border-radius: 10px;
-      box-shadow: 0 2px 5px blue;}
-
-   .formulario {
+      box-shadow: 0 2px 5px blue;
+      width: 350px;
+      max-width: 100%;
       display: flex;
-      justify-content: space-around;
-      margin-left: 30px;
-      align-items: center;
-      border-radius: 10px;
-     
+      flex-direction: column;
+      
+      
    }
-   .formulario h2{
+
+   .container h2{
       margin-top: 30px;
       margin-left: 30px;
       color: blue;
@@ -180,15 +179,8 @@ background-color: blue;
       text-decoration: underline;
 
    }
-   .formulario .cadastro{
-      margin-left: 30px;
-      width: 300px;
-      text-align: center;
-      color: blue;
-      font-size: 1.2rem;
-      align-items: center;
-   }
-   .formulario hr{
+   
+   .container hr{
       width: 300px;
       height: 3px;
       color: blue;
@@ -197,18 +189,8 @@ background-color: blue;
       margin-right: 10px;
    }
 
-   form{
-      background-color: white;
-      color: blue;
-      display: flex;
-      flex-direction: column;
-      margin-left: 20px;
-      padding: 10px 5px;
-      align-items: center;
-      width: 300px;
-      overflow: hidden;
-  }
-form{
+   
+.form{
    padding: 20px;
 }
 .form-control{
@@ -231,7 +213,7 @@ form{
 .form-control i{
    visibility: hidden;
    position: absolute;
-   top: 10px;
+   top: 15px;
    right: 10px;
 
 }
@@ -239,27 +221,16 @@ form{
    position: absolute;
    bottom: 0;
    left: 0;
+   visibility: hidden;
 }
-   
 
- input{
-      width: 300px;
-      border-radius: 7px;
-      border: 2px solid blue;
-      color: blue;
-      font-size: 1rem;
-      padding: 5px 5px; 
-      border-color: blue;
-      margin: 2px;
-      margin-right: 2px;
-      
-   }
+
    input:hover{
       background-color: rgb(0, 153, 255);
       
    }
    
-   button{  
+   .form button{  
     background-color: transparent;
     font-weight: 700;
     font-size: 1.1rem;
@@ -271,7 +242,7 @@ form{
     color: blue;
     margin: 5px 5px;
     padding: 4px 4px;
-    width: 60%;
+    width: 100%;
     align-items: center;
     
     
@@ -282,12 +253,29 @@ form{
       color: white;
 
    }
-   @media(max-width: 700px){
-      .formulario{  flex-direction: column;  align-items: center;text-align: center;margin-right: 5px;}
-      .formulario h2 { text-align: center; padding-bottom: 10px; margin-right: 55px;}
-      .formulario p{text-align: center; padding-bottom: 10px; margin-right: 55px;}
-      form{padding: 10px; width: 90%;align-items: center; margin-right: 30px;}
-      form input{align-items: center; margin-left: 55px;width: 260px;}
+   .form-control.success input {
+      border-color: #0c920c;
+
+   }
+   .form-control.error input {
+      border-color: red;
+      
+   }
+   .form-control.success i.icofont-check-circled{
+      color: #0c920c;
+      visibility: visible;
+
+   }
+   .form-control.error i.icofont-exclamation-circle{
+      color: red;
+      visibility: visible;
+
+   }
+   .form-control.error small{
+      visibility: visible;
+      color: red;
+   }
+  
 
       
    

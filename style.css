@@ -195,12 +195,14 @@ background-color: blue;
 
    
 .form{
+   display: flex;
+   flex-direction: column;
    padding: 20px;
-   width: 300px;
+   width: 330px;
    border: 2px solid blue;
-   align-items: center;
    border-radius: 10px;
    justify-content: center;
+   margin: 20px 5px;
 
 }
 .form-control{
@@ -250,7 +252,7 @@ background-color: blue;
     border: 2px solid blue;
     border-radius: 10px;
     color: blue;
-    margin: 5px 5px;
+    margin: 10px 5px;
     padding: 4px 4px;
     width: 100%;
     align-items: center;

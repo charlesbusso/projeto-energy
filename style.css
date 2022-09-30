@@ -158,13 +158,12 @@ background-color: blue;
    
    }
    .cadastro {
-      background-color: #fafafa;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px blue;
-      width: 280px;
       max-width: 100%;
       display: flex;
       flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: space-around;
       
       
    }
@@ -176,7 +175,6 @@ background-color: blue;
       font-weight: 700px;
       font-size: 2rem;
       font-weight: bolder;
-      text-decoration: underline;
 
    }
    
@@ -193,6 +191,7 @@ background-color: blue;
 .form{
    padding: 20px;
    width: 280px;
+   border: 2px solid blue;
 }
 .form-control{
     margin-bottom: 10px;

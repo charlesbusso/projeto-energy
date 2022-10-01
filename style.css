@@ -193,6 +193,13 @@ background-color: blue;
       margin-right: 10px;
    }
 
+.conta {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+}
+
    
 .form{
    display: flex;

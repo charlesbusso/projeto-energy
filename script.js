@@ -6,7 +6,7 @@ const passwordConfirmation = document.getElementById('password-confirmation');
 
 
 form.addEventListener("submit", (e) => {
- e.preventDefault();
+    e.preventDefault();
 
 checkInputs();
 });
@@ -17,12 +17,12 @@ checkInputs();
         const passwordConfirmationValue = passwordConfirmation.value;
 
         if (usernameValue === "") {
-            setErrorFor(username, "o nome de usuário é obrigatório.");
+            setErrorFor(username, "O nome de usuário é obrigatório.");
         } else {
             setSuccessFor(username);
         }
         if (emailValue === "") {
-            setErrorFor(email, "o email é obrigatório.");
+            setErrorFor(email, "O email é obrigatório.");
         }
         else if (!checkEmail(emailValue)){
             setErrorFor(email, "por favor, insira um email válido.");
@@ -43,7 +43,10 @@ checkInputs();
         setErrorFor(passwordConfirmation, "A confirmação da senha é obrigatório.");
     }
     else if (passwordConfirmationValue != passwordValue){
-        setErrorFor(passwordConfirmation, " As senhas não conferrem.");
+        setErrorFor(passwordConfirmation, " As senhas não conferem.");
+    }
+    else if (passwordConfirmationValue.length < 8) {
+        setErrorFor(passwordConfirmation, " A senha preicsa ter nomínimo 8 caracteres")
     }
     else {
         setSuccessFor(passwordConfirmation);
@@ -53,6 +56,9 @@ checkInputs();
     const formIsvalid =[...formControls].every((formControl) => {
         return (formControl.className === "form-control success");
     });
+    if (formIsvalid) {
+        ("A Conta criada com sucesso.")
+    }
 }
     function setErrorFor(input, message) {
         const formControl = input.parentElement;

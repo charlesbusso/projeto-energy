@@ -225,6 +225,7 @@ background-color: blue;
    border: 2px solid blue;
    justify-content: center;
    margin: 20px 5px;
+   border-radius: 10px;
 
 }
 .form-control{
@@ -261,6 +262,7 @@ background-color: blue;
 
    input:hover{
       background-color: rgb(0, 153, 255);
+      border: none;
       
    }
    

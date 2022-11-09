@@ -222,7 +222,7 @@ background-color: blue;
    flex-direction: column;
    padding: 20px;
    width: 330px;
-   border: none;
+   border: 2px solid blue;
    justify-content: center;
    margin: 20px 5px;
 
@@ -237,6 +237,7 @@ background-color: blue;
    margin-bottom: 5px;
 }
 .form-control input{
+   border: none;
    border-bottom: 2px solid blue;
    display: block;
    border-radius: 10px;

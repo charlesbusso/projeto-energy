@@ -144,7 +144,7 @@ background-color: blue;
    font-weight: 700;
    border: 2px solid blue;
    border-radius: 5px;
-   margin-top: 5px;
+   margin-top: 2px;
    margin-bottom: 20px;
    
 }
@@ -164,7 +164,7 @@ background-color: blue;
 .servicos h2{
    color: blue;
    text-align: center;
-   margin-top: 30px;
+   margin-top: 40px;
 }
 @media(max-width: 700px){
    .servicos{flex-direction: column; align-items: center; background-position: center; text-align: center;}
@@ -238,9 +238,8 @@ background-color: blue;
 }
 .form-control input{
    border: none;
-   border-bottom: 2px solid blue;
+   border-bottom: 1px solid blue;
    display: block;
-   border-radius: 10px;
    font-size: 14px;
    width: 100%;
    padding: 15px;

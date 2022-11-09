@@ -137,8 +137,17 @@ background-color: blue;
    margin-top: 20px;
    padding: 20px 10px;
    margin-left: 10px;
+   margin-bottom: 20px;
    
 }
+.servicos a {
+   font-weight: 700;
+   border: 2px solid blue;
+   border-radius: 5px;
+   margin-top: 5px;
+   
+}
+
 
 .servicos img{
    margin: 5px 0px;

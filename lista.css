@@ -71,7 +71,7 @@ header{
        justify-content: center;}
 
        header {
-       width: 100vw;
+       width: auto;
        font-size: 0.7rem;
 }
       .lista {

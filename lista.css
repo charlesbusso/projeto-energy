@@ -60,7 +60,7 @@ header{
     justify-content: center;
     
 }
-    @media screen (min-width: 768px) and (max-width: 992px){
+    @media screen (min-width: 500px) and (max-width: 700px){
    .container{
       display: flex;
       flex-direction: column;

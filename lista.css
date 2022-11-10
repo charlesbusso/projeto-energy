@@ -64,23 +64,22 @@ header{
    .container{
       display: flex;
       flex-direction: column;
-      margin-left: 30px;
+      margin-left: 25px;
       }
    .container1{
        display: flex;
        flex-direction: column;
-       margin-left: 30px;
+       margin-left: 25px;
        }
 
     header {
-       width: 100%;
        margin-left: 10px;
        font-size: 0.7rem;}
     .lista {
        width: 70%;
 }
     ul{
-      width: 60%;
+      width: 40%;
       display: flex;
       flex-direction: column;
   }
@@ -118,7 +117,7 @@ li{
     margin-left: 60px;
 }
 .fim{
-    
+    width: 100%;
     color: blue;
     font-size: 1.6rem;
     margin: 20px;

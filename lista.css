@@ -60,6 +60,17 @@ header{
     justify-content: center;
     
 }
+    @media(max-width: 700px){
+     .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;}
+      .container1{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;}
+      
+}
 .lista h1 {
     color: blue;
     text-align: center;

@@ -1,0 +1,100 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 250px;
+    background-color: rgba(0, 0, 255, 0.959);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+    
+}
+.container1{
+    display: flex;
+    justify-content: space-around;
+}
+.casa{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    width: 400px;
+    align-items: center;
+    margin: 20px;
+    height: 400px;
+    
+    
+}
+.casa img{
+    width: 380px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.casa p {
+    text-align: center;
+    font-size: 1.5rem;
+    color: blue;
+}
+.casa .comentario{
+    color: blue;
+    font-size: 1.2rem;
+}
+.lista{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.lista h1 {
+    color: blue;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 2rem;
+}
+ul{
+    display: flex;
+    color: blue;
+    flex-direction: column;
+    width: 700px;
+    border: 2px solid blue;
+    margin: 10px 10px;
+    list-style: none;
+
+}
+i{
+    top: 20px;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+
+}
+li{
+    padding: 10px;
+    margin-left: 60px;
+}
+.fim{
+    
+    color: blue;
+    font-size: 1.6rem;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}

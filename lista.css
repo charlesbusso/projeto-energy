@@ -71,12 +71,15 @@ header{
        justify-content: center;}
 
        header {
-       width: 100%;
-       font-size: 1.2rem;
+       width: 100vw;
+       font-size: 0.7rem;
 }
       .lista {
-       width: 100%;
+       width: 100vw;
 }
+      ul{
+      width: 80%;
+  }
 }
 .lista h1 {
     color: blue;

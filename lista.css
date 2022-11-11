@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 header{
-    width: 100vh;
+    width: 100%;
     height: 250px;
     background-color: rgba(0, 0, 255, 0.959);
     color: white;
@@ -111,12 +111,13 @@ li{
 @media(max-width: 500px){
 header {
     
-    margin-left: 10px;}
+    }
 header img{
-    width: 180px;}
+    width: 180px;
+margin-right: 10px;}
 header p{
     font-size: 0.9rem;
-    
+    margin-left: 10px;
 }
 header h1 {
     margin-left: 20px;

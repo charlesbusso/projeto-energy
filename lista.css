@@ -151,13 +151,11 @@ header h1 {
  }
 
 .lista {
-    max-width: 380px;
     margin-left: 45px;
     align-items: center;
  }
  
 ul{
-    max-width: 380px;
     display: flex;
     flex-direction: column;
 }

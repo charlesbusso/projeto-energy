@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 header{
-    max-width: 1400px;
     height: 250px;
     background-color: rgba(0, 0, 255, 0.959);
     color: white;
@@ -60,7 +59,7 @@ header{
     justify-content: center;
     
 }
-    @media screen (min-width: 500px) and (max-width: 700px){
+    @media(max-width: 700px){
    .container{
       display: flex;
       flex-direction: column;
@@ -77,10 +76,10 @@ header{
        margin-left: 10px;
        font-size: 0.7rem;}
     .lista {
-       max-width: 700px;
+       max-width: 340px;
 }
     ul{
-      max-width: 700px;
+      max-width: 340px;
       display: flex;
       flex-direction: column;
   }

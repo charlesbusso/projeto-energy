@@ -136,11 +136,11 @@ header h1 {
     
 }
 .casa {
-    width: 360px;
+    width: 340px;
 
 }
 .casa img {
-    width: 330px;
+    width: 320px;
 }
 .container{ 
     display: flex;
@@ -157,7 +157,7 @@ header h1 {
  }
  
 ul{
-    width: 350px;
+    width: 320px;
     display: flex;
     flex-direction: column;
 }

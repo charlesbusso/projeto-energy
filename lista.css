@@ -12,6 +12,13 @@ header{
     justify-content: space-around;
     align-items: center;
 }
+header p{
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+header h1{
+    font-size: 2.4rem;
+}
 .container{
     display: flex;
     justify-content: space-around;
@@ -78,7 +85,7 @@ ul{
 
 }
 i{
-    top: 20px;
+    top: 17px;
     position: relative;
     margin-left: 10px;
     margin-right: 10px;
@@ -101,22 +108,31 @@ li{
 @media(max-width: 500px){
 header {
     width: 100%;
-    font-size: 0.5rem;
-    margin-left: 25px;}
+    margin-left: 20px;}
 header img{width: 180px;}
+header p{
+    font-size: 0.9rem;
+    margin-left: 5px;
+}
+header h1 {
+    margin-left: 30px;
+    font-size: 2rem;
+}
 .container{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: -10px;
+    margin-left: 5px;
     
  }
 
 .lista {
     max-width: 380px;
     margin-left: 50px;
+    align-items: center;
  }
+ 
 ul{
     max-width: 380px;
     display: flex;

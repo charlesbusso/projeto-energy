@@ -11,7 +11,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 30px;
+    padding: 30px 30px;
 }
 header p{
     font-size: 1.2rem;
@@ -114,6 +114,7 @@ li{
         padding: 10px 20px;
         text-align: center;
         height: 350px;
+        margin-left: 15px;
     }
 header img{
     width: 180px;
@@ -156,6 +157,7 @@ header h1 {
  }
  
 ul{
+    width: 370px;
     display: flex;
     flex-direction: column;
 }

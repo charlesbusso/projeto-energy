@@ -138,6 +138,9 @@ header h1 {
     width: 380px;
 
 }
+.casa img {
+    width: 350px;
+}
 .container{ 
     display: flex;
     flex-direction: column;

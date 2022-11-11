@@ -144,14 +144,14 @@ background-color: blue;
    font-weight: 700;
    border: 2px solid blue;
    border-radius: 5px;
-   margin-top: 2px;
-   margin-bottom: 20px;
+   margin-top: 5px;
+   margin-bottom: 10px;
    
 }
 
 
 .servicos img{
-   margin: 5px 0px;
+   margin: 15px 0px;
    align-items: center;
    width: 250px;
    height: 250px;
@@ -168,7 +168,7 @@ background-color: blue;
 }
 @media(max-width: 700px){
    .servicos{flex-direction: column; align-items: center; background-position: center; text-align: center;}
-   .servicos img{ margin-bottom: 30px; background-position: center;}
+   .servicos img{ margin-bottom: 30px; background-position: center;width: 300px;}
    .servicos h2{ text-align: center;}
    
    }

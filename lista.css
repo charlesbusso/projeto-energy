@@ -115,6 +115,7 @@ li{
         padding: 10px 20px;
         text-align: center;
         height: 350px;
+        margin-left: 5px;
     }
 header img{
     width: 180px;
@@ -140,7 +141,7 @@ header h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 80%;
+    margin-left: 20px;
     
  }
 

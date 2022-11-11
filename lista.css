@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 header{
+    width: 100vh;
     height: 250px;
     background-color: rgba(0, 0, 255, 0.959);
     color: white;

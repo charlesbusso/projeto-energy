@@ -108,7 +108,13 @@ li{
     display: flex;
     align-items: center;
 }
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .texto h1{
+
     color: blue;
     text-align: center;
     font-size:1.9rem;
@@ -166,7 +172,7 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 25px;
+    margin-left: 30px;
 }
 li{
     font-size: 1rem;

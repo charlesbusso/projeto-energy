@@ -155,9 +155,10 @@ header h1 {
  }
  
 ul{
-    width: 320px;
+    width: 300px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 li{
     font-size: 1rem;

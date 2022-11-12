@@ -6,8 +6,8 @@
 }
 header{
     height: 250px;
-    background-color: rgba(0, 0, 255, 0.959);
-    color: white;
+    background-color: white;
+    color: blue;
     display: flex;
     justify-content: space-around;
     align-items: center;

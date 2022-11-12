@@ -108,10 +108,15 @@ li{
     display: flex;
     align-items: center;
 }
-.texto{
+.texto h1{
     color: blue;
     text-align: center;
-    font-size:1.2rem;
+    font-size:1.9rem;
+}
+.texto p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: blue;
 }
 @media(max-width: 700px){
     header{

@@ -150,10 +150,11 @@ header h1 {
  }
  
 ul{
-    width: 300px;
+    width: 320px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 10px;
 }
 li{
     font-size: 1rem;

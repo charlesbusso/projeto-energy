@@ -28,10 +28,7 @@ header h1{
     
     
 }
-.container1{
-    display: flex;
-    justify-content: space-around;
-}
+
 .casa{
     display: flex;
     flex-direction: column;
@@ -39,7 +36,7 @@ header h1{
     width: 400px;
     align-items: center;
     margin: 20px;
-    height: 400px;
+    height: 480px;
     
     
 }
@@ -50,6 +47,11 @@ header h1{
     align-items: center;
     
 
+}
+.casa h2{
+    text-align: center;
+    font-size: 2rem;
+    color: blue;
 }
 
 .casa p {
@@ -97,6 +99,7 @@ i{
 li{
     padding: 10px;
     margin-left: 60px;
+    font-size: 1.2rem;
 }
 .fim{
     width: 100%;
@@ -109,12 +112,13 @@ li{
     align-items: center;
 }
 .texto{
+    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.texto h1{
 
+.texto h1{
     color: blue;
     text-align: center;
     font-size:1.9rem;
@@ -126,6 +130,42 @@ li{
     color: blue;
     margin-top: 20px;
 }
+.texto img{
+    width: 550px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px;
+    margin: 20px;
+}
+p {
+    color: blue;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 20px;
+    margin: 20px;
+
+}
+.sol  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   
+
+}
+.sol h2{
+    color: blue;
+    font-size: 1.8rem;
+}
+.sol img {
+    width: 200px;
+}
+
 @media(max-width: 700px){
     header{
         display: flex;
@@ -166,6 +206,7 @@ header h1 {
     justify-content: center;
     
  }
+
  
 ul{
     width: 320px;
@@ -173,8 +214,20 @@ ul{
     flex-direction: column;
     justify-content: center;
     margin-left: 20px;
+    text-align: center;
 }
 li{
     font-size: 1rem;
  }
+ .texto {
+    justify-content: center;
+ }
+ i{
+    margin-right: 140px;
+    top: 15px;
+ }
+ .texto img{
+    width: 340px;
+ }
+ 
  }

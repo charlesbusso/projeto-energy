@@ -269,7 +269,18 @@ hr{
     margin-bottom: 30px;
     margin-top: 30px;
 }
-
+.galeria{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.galeria img {
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
 
 @media(max-width: 700px){
     header{
@@ -365,7 +376,24 @@ li{
     width: 380px;
  }
  .mapa img {
-    width: 380px;
+    width: 350px;
+    
+ }
+    
+    
+    
+  .galeria{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+ .galeria img{
+    width: 130px;
+    height: 80px;
+    
+
  }
  
  }

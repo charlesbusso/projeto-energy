@@ -271,6 +271,7 @@ hr{
 }
 .galeria{
     display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 .galeria img {
@@ -389,8 +390,8 @@ li{
 
 
  .galeria img{
-    width: 130px;
-    height: 80px;
+    width: 150px;
+    height: 90px;
     
 
  }

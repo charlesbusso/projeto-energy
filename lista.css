@@ -271,7 +271,6 @@ hr{
 }
 .galeria{
     display: flex;
-    justify-content: space-around;
     align-items: center;
 }
 .galeria img {
@@ -384,7 +383,7 @@ li{
     
   .galeria{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
 

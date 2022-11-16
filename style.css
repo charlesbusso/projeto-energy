@@ -48,16 +48,7 @@ header img{
    height: 200px;
    
 }
-header .btn{
-text-decoration: none;
-margin-top: 10px;
-font-size: 2.5rem;
-cursor: pointer;
-color: white;
-border-radius: 5px;
 
-
-}
 .btn , a:hover{
 color: white;
 background-color: blue;
@@ -120,6 +111,11 @@ background-color: blue;
    margin: 15px 20px;
    color: blue;
    font-size: 1.2rem;
+}
+.quem-somos a{
+   border: 2px solid blue;
+   border-radius: 5px;
+   font-weight: 700;
 }
 @media(max-width: 700px){
    .quem-somos{flex-direction: column;display: flex;align-items: center;text-align: center; background-position: center; margin-top: 10px;}

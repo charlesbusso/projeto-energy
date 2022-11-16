@@ -4,6 +4,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 header{
     height: 250px;
     background-color: white;
@@ -14,11 +15,11 @@ header{
     padding: 30px 30px;
 }
 header p{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     margin-top: 20px;
 }
 header h1{
-    font-size: 2.4rem;
+    font-size: 2.5rem;
 }
 .container{
     display: flex;
@@ -101,6 +102,27 @@ li{
     margin-left: 60px;
     font-size: 1.2rem;
 }
+.taxa{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.taxa h2{
+    color: blue;
+    text-align: center;
+}
+.taxa ul{
+    display: flex;
+    color: blue;
+    flex-direction: column;
+    width: 700px;
+    border: 2px solid blue;
+    margin: 10px 10px;
+    list-style: none;
+
+}
 .fim{
     width: 100%;
     color: blue;
@@ -135,6 +157,20 @@ li{
     border: 2px solid blue;
     border-radius: 10px;
 }
+.iframe{
+    width: 650px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.iframe iframe{
+    border-radius: 10px;
+    width: 600px;   
+
+}
 h1 {
     color: blue;
     text-align: center;
@@ -165,6 +201,75 @@ p {
 .sol img {
     width: 200px;
 }
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+footer img{
+    width: 200px;
+}
+.equipe{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    
+}
+.equipe img{
+    width: 500px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin: 10px;
+}
+.equipe p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.conteudo h1{
+    font-size: 3rem;
+}
+.conteudo h2{
+    color: blue;
+    align-items: center;
+    text-align: center;
+    font-size: 2.2rem;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.conteudo img{
+    width: 600px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+.conteudo p{
+    font-size: 1.5rem;
+}
+.mapa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mapa img {
+    width: 600px;
+}
+.mapa p{
+    font-size: 1.5rem;
+}
+hr{
+    background-color: blue;
+    width: 500px;
+    height: 3px;
+    margin-left: 450px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
 
 @media(max-width: 700px){
     header{
@@ -174,7 +279,7 @@ p {
         height: 350px;
     }
 header img{
-    width: 180px;
+    width: 200px;
     position: relative;
     top: 5px;
     right: 20px;
@@ -182,18 +287,30 @@ header img{
     }
 header p{
     padding: 5px;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
     margin-bottom: 20px;
 
 }
 header h1 {
     margin-left: 10px;
-    font-size: 2rem;
+    font-size: 2.2rem;
     padding: 10px;
     
 }
+.iframe{
+    width: 360px;
+    margin-top: 20px;
+    
+    
+}
+.iframe iframe{
+    width: 350px;   
+}
+
+
 .casa {
     width: 340px;
+    flex-direction: column;
 
 }
 .casa img {
@@ -219,6 +336,10 @@ ul{
 li{
     font-size: 1rem;
  }
+ 
+ .taxa ul{
+    width: 320px;
+ }
  .texto {
     justify-content: center;
  }
@@ -228,6 +349,23 @@ li{
  }
  .texto img{
     width: 340px;
+ }
+ .equipe{
+    flex-direction: column;
+    
+ }
+ .equipe img{
+    width: 400px;
+ }
+ hr{
+    width: 200px;
+    margin-left: 150px;
+ }
+ .conteudo img{
+    width: 380px;
+ }
+ .mapa img {
+    width: 380px;
  }
  
  }

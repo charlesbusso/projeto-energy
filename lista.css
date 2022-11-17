@@ -254,6 +254,7 @@ footer img{
 .mapa{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .mapa img {
     width: 600px;
@@ -448,8 +449,8 @@ li{
     width: 350px;
     
  }
-.mapa p {
-    width: 1.3rem;
+.mapa p{
+    font-size: 1.3rem;
 }  
   .galeria{
     display: flex;

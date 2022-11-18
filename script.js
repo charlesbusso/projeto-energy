@@ -1,6 +1,7 @@
 const form = document.getElementById('form');
 const username = document.getElementById('username');
 const email = document.getElementById('email');
+const tel = document.getElementById('tel');
 const password = document.getElementById('password');
 const passwordConfirmation = document.getElementById('password-confirmation');
 
@@ -13,6 +14,7 @@ checkInputs();
     function checkInputs() {
         const usernameValue = username.value;
         const emailValue = email.value;
+        const telValue = tel.value;
         const passwordValue = password.value;
         const passwordConfirmationValue = passwordConfirmation.value;
 
@@ -30,6 +32,13 @@ checkInputs();
         else {
             setSuccessFor(email);
         }
+
+        if (telValue === ""){
+            setErrorFor(tel, "O número de telefone é obrigatório.");
+        }
+        else{
+            setSuccessFor(tel);        }
+        
         if (passwordValue === "") {
             setErrorFor(password,"A senha é obrigatória.");
         }
@@ -46,19 +55,21 @@ checkInputs();
         setErrorFor(passwordConfirmation, " As senhas não conferem.");
     }
     else if (passwordConfirmationValue.length < 8) {
-        setErrorFor(passwordConfirmation, " A senha preicsa ter nomínimo 8 caracteres")
+        setErrorFor(passwordConfirmation, " A senha preicsa ter nomínimo 8 caracteres");
     }
     else {
         setSuccessFor(passwordConfirmation);
     }
-    const formControls = form.querySelectorAll('.form-control')
+    const formControls = form.querySelectorAll(".form-control");
 
-    const formIsvalid =[...formControls].every((formControl) => {
-        return (formControl.className === "form-control success");
+    const formIsvalid = [...formControls].every((formControl) => {
+        return formControl.className === "form-control success";
     });
     if (formIsvalid) {
-        ("A Conta criada com sucesso.")
+        ("A Conta criada com sucesso.");
     }
+   
+   
 }
     function setErrorFor(input, message) {
         const formControl = input.parentElement;
@@ -75,6 +86,7 @@ checkInputs();
 
         formControl.className = "form-control success";
     }
+    
 
     function checkEmail(email) {
         return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(

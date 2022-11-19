@@ -423,7 +423,7 @@ height: 200px;
       }
       .grupo{
          flex-direction: column;
-         font-size: 1.2rem;   
+         font-size: 0.8rem;   
          width: 320px;  
          height: 300px;
          
@@ -435,7 +435,7 @@ height: 200px;
          font-size: 1.4rem;
       }
       .grup{
-         justify-content: space-around;
+         justify-content: space-between;
          margin-top: 10px;
          
       }

@@ -421,10 +421,10 @@ height: 200px;
       .form{
          width: 330px;
       }
-      .grup{
+      .grupo{
          flex-direction: column;
          font-size: 1.2rem;   
-         width: 280px;  
+         width: 320px;  
          height: 300px;
          
       }
@@ -436,9 +436,6 @@ height: 200px;
       }
       .grup{
          overflow-y: scroll;
-         width: 300px;
-         font-size: 1.1rem;
-         margin-bottom: 40px;
          
       }
       

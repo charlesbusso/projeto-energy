@@ -422,10 +422,10 @@ height: 200px;
          width: 330px;
       }
       .grupo{
-         flex-direction: column;
-         font-size: 0.8rem;   
-         width: 320px;  
-         height: 300px;
+         justify-content: space-around;
+          
+         
+         
          
       }
       .grupo h5{
@@ -435,8 +435,12 @@ height: 200px;
          font-size: 1.4rem;
       }
       .grup{
-         justify-content: space-between;
+         flex-direction: column;
          margin-top: 10px;
+         height: 300px;
+         width: 320px;
+         font-size: 1rem;
+         
          
       }
       

@@ -442,6 +442,12 @@ height: 200px;
          
          
       }
+.grupo label {
+        text-align: left;
+}
+.grupo input {
+        margin-right: 100px;
+}
       
       
 }

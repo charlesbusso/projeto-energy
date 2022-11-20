@@ -444,9 +444,10 @@ height: 200px;
       }
 .grupo label {
         text-align: left;
+        margin-right: 100px;
 }
 .grupo input {
-        margin-right: 100px;
+        margin-right: 200px;
 }
       
       

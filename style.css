@@ -22,7 +22,7 @@ header{
 
 nav a{
    margin-top: 20px;
-   font-size: 2rem;
+   font-size: 1.5rem;
 }
 a{
    font-size: 1.2rem;
@@ -272,7 +272,7 @@ background-color: blue;
 }
 .termo label{
    margin-left: 20px;
-   font-size: 1.1rem;
+   font-size: 0.8rem;
 }
 .termo strong{
    color: rgb(255, 9, 83);
@@ -428,7 +428,8 @@ background-color: blue;
       align-items: center;
       color: white;
       font-size: 35px;
-      margin: 10px;
+      margin-bottom: 10px;
+      margin-top: 10px;
    
    }
    @media(max-width: 700px){

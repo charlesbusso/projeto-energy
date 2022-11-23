@@ -482,7 +482,17 @@ li{
  .galeria img{
      width: 400px;
      height: 250px;
+     
     }
+    .iframe iframe{
+        width: 600px;   
+    }.casa{
+        width: 350px;
+    }
+    .casa img{
+        width: 300px;
+    }
+    
     
     
     

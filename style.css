@@ -20,8 +20,9 @@ header{
 
 
 
-nav{
+nav a{
    margin-top: 20px;
+   font-size: 2rem;
 }
 a{
    font-size: 1.2rem;
@@ -78,7 +79,7 @@ background-color: blue;
 .capa p{
    margin-top: 230px;
    color: white;
-   font-size: 1.5rem;
+   font-size: 1.4rem;
    text-align: center;
    font-weight: bolder;
 }
@@ -94,8 +95,8 @@ background-color: blue;
    align-items: center;
 }
 .quem-somos img{
-   max-width: 400px;
-   max-height: 400px;
+   width: 400px;
+   height: 400px;
    border-radius: 10px;
 }
 .quem-somos h2{
@@ -263,6 +264,20 @@ background-color: blue;
    margin-top: 10px;
    margin-right: 30px;
 }
+.termo{
+   display: flex;
+   margin-left: 10px;
+   margin: 10px;
+}
+.termo label{
+   margin-left: 20px;
+   font-size: 1.1rem;
+}
+.termo strong{
+   color: rgb(255, 9, 83);
+   font-weight: bolder;
+
+}
 
 .form-control{
     margin-bottom: 10px;
@@ -400,6 +415,21 @@ background-color: blue;
       font-size: 1.2rem;
       text-align: center;
    }
+   footer{
+      background-color: blue;
+      font-size: 1.3rem;
+      text-align: center;
+      color: white;
+      margin: 10px;
+      padding: 10px;
+   }
+   footer i{
+      align-items: center;
+      color: white;
+      font-size: 35px;
+      margin: 10px;
+   
+   }
    @media(max-width: 700px){
       .caracteristicas ul, li{
          display: flex;
@@ -494,6 +524,24 @@ background-color: blue;
       font-size: 15px;
       padding-top: 10px;
    }
-
+   }
+   @media screen and (min-width: 768px) and (max-width: 992px){
+      .quem-somos{
+         flex-direction: column;
+      }
+      .quem-somos img{
+         width: 450px;
+         margin-bottom: 20px;
+      }
+      .servicos{
+         background-color: blue;
+         flex-direction: column;
+      
+      }
+      .servicos img{
+         width: 500px;
+         height: 400px;
+      }
+   }
    
   

@@ -234,23 +234,34 @@ background-color: blue;
    margin-bottom: 5px;
 }
 .grup{
-display: flex;
-flex-direction: column;
-position: absolute;
-align-items: center;
-font-size: 1.2rem;
-padding: 10px;
-overflow-y: scroll;
-height: 200px;
-
+   display: flex;
+   flex-direction: column;
+   font-size: 1.2rem;
+   padding: 10px;
+   height: 300px;
+   width: 100%;
 
 
 }
-.grup input{
-   margin-bottom: 10px;
-   position: relative;
+.grupo{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 10px;
+
+   
+}
+.grupo input{
+   display: block;
    padding: 10px;
-   margin: 10px;
+   margin-top: 10px;
+   margin-left: 30px;
+   width: 30px;
+   
+   
+}.grup label{
+   display: block;
+   margin-top: 10px;
+   margin-right: 30px;
 }
 
 .form-control{
@@ -336,14 +347,6 @@ height: 200px;
       visibility: visible;
       color: red;
    }
-   .grupo{
-      display: flex;
-      justify-content: space-around;
-
-   }
-  
-
-      
    
    .caracteristicas{
       border-color: blue;
@@ -422,10 +425,9 @@ height: 200px;
          width: 330px;
       }
       .grupo{
-         justify-content: space-between;
-         
-         
-         
+         padding: 5px;
+         margin-top: 10px;  
+         margin-bottom: 10px;
          
       }
       .grupo h5{
@@ -435,22 +437,21 @@ height: 200px;
          font-size: 1.4rem;
       }
       .grup{
-         flex-direction: column;
-         margin-top: 10px;
-         height: 300px;
-         font-size: 1rem;
-         background-color: blue;
+         justify-content: space-between;
+         overflow-x: auto;
+         height: 150px;
+         font-size: 0.9rem;
+         margin-bottom: 30px;
          
       }
-.grupo label {
-        text-align: left;
-        
-}
-.grupo input {
-        
-      
-      
-}
+      .grup label{
+         margin-right: 5px;
+         
+      }
+     .grup input{
+      margin-left: -10px;
+     }
+
    footer{
       width: 100%;
       background-color: blue;

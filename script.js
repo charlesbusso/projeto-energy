@@ -9,6 +9,9 @@ const passwordConfirmation = document.getElementById('password-confirmation');
 form.addEventListener("submit", (e) => {
     e.preventDefault();
 
+   
+    })
+
 checkInputs();
 });
     function checkInputs() {

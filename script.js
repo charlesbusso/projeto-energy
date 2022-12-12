@@ -4,6 +4,7 @@ const email = document.getElementById('email');
 const tel = document.getElementById('tel');
 const password = document.getElementById('password');
 const passwordConfirmation = document.getElementById('password-confirmation');
+const btnLimpar = document.getElementById('btnLimpar')
 
 
 form.addEventListener("submit", (e) => {
@@ -81,13 +82,19 @@ checkInputs();
         small.innerText = message;
 
         formControl.className = "form-control error";
-
+        
     }
+    btnLimpar.addEventListener('click', function()
+     {
+        formControl.classList.remove('form-control error')
+        
+    })
 
     function setSuccessFor(input) {
         const formControl = input.parentElement;
 
         formControl.className = "form-control success";
+      
     }
     
 
@@ -96,3 +103,6 @@ checkInputs();
             email
           );
     }
+
+   
+    

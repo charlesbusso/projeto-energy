@@ -4,7 +4,8 @@ const email = document.getElementById('email');
 const tel = document.getElementById('tel');
 const password = document.getElementById('password');
 const passwordConfirmation = document.getElementById('password-confirmation');
-const btnLimpar = document.getElementById('btnLimpar')
+const btnLimpar = document.querySelector('#btnLimpar');
+const termo = document.getElementById('termo');
 
 
 form.addEventListener("submit", (e) => {
@@ -21,6 +22,7 @@ checkInputs();
         const telValue = tel.value;
         const passwordValue = password.value;
         const passwordConfirmationValue = passwordConfirmation.value;
+        const termoValue = termo.value;
 
         if (usernameValue === "") {
             setErrorFor(username, "O nome de usuário é obrigatório.");
@@ -64,6 +66,14 @@ checkInputs();
     else {
         setSuccessFor(passwordConfirmation);
     }
+
+        if (termoValue === "") {
+            setErrorFor(termo, "Os termos de uso é obrigatório.");
+
+        }else {
+            setSuccessFor(termo);
+        }
+    }
     const formControls = form.querySelectorAll(".form-control");
 
     const formIsvalid = [...formControls].every((formControl) => {
@@ -72,9 +82,20 @@ checkInputs();
     if (formIsvalid) {
         ("A Conta criada com sucesso.");
     }
+
+   
    
    
 }
+     function formatar(){
+        btnLimpar.addEventListener("click", (e) => {
+            
+    
+         
+         formIsvalid.classList.remove('error');
+        })
+     }
+
     function setErrorFor(input, message) {
         const formControl = input.parentElement;
         const small = formControl.querySelector("small");
@@ -84,11 +105,8 @@ checkInputs();
         formControl.className = "form-control error";
         
     }
-    btnLimpar.addEventListener('click', function()
-     {
-        formControl.classList.remove('form-control error')
-        
-    })
+
+
 
     function setSuccessFor(input) {
         const formControl = input.parentElement;
@@ -96,6 +114,8 @@ checkInputs();
         formControl.className = "form-control success";
       
     }
+
+    
     
 
     function checkEmail(email) {

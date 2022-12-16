@@ -4,8 +4,7 @@ const email = document.getElementById('email');
 const tel = document.getElementById('tel');
 const password = document.getElementById('password');
 const passwordConfirmation = document.getElementById('password-confirmation');
-const btnLimpar = document.querySelector('#btnLimpar');
-const termo = document.getElementById('termo');
+const btnLimpar = document.getElementById('btnLimpar');
 
 
 form.addEventListener("submit", (e) => {
@@ -22,7 +21,7 @@ checkInputs();
         const telValue = tel.value;
         const passwordValue = password.value;
         const passwordConfirmationValue = passwordConfirmation.value;
-        const termoValue = termo.value;
+        
 
         if (usernameValue === "") {
             setErrorFor(username, "O nome de usuário é obrigatório.");
@@ -67,12 +66,7 @@ checkInputs();
         setSuccessFor(passwordConfirmation);
     }
 
-        if (termoValue === "") {
-            setErrorFor(termo, "Os termos de uso é obrigatório.");
-
-        }else {
-            setSuccessFor(termo);
-        }
+        
     }
     const formControls = form.querySelectorAll(".form-control");
 
@@ -84,17 +78,6 @@ checkInputs();
     }
 
    
-   
-   
-}
-     function formatar(){
-        btnLimpar.addEventListener("click", (e) => {
-            
-    
-         
-         formIsvalid.classList.remove('error');
-        })
-     }
 
     function setErrorFor(input, message) {
         const formControl = input.parentElement;
@@ -105,18 +88,17 @@ checkInputs();
         formControl.className = "form-control error";
         
     }
-
-
-
     function setSuccessFor(input) {
         const formControl = input.parentElement;
 
         formControl.className = "form-control success";
       
     }
+    btnLimpar.addEventListener('click', function(){
+        
+        password.remove('error');
 
-    
-    
+    })
 
     function checkEmail(email) {
         return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(
@@ -125,4 +107,4 @@ checkInputs();
     }
 
    
-    
+     

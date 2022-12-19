@@ -4,7 +4,7 @@ const email = document.getElementById('email');
 const tel = document.getElementById('tel');
 const password = document.getElementById('password');
 const passwordConfirmation = document.getElementById('password-confirmation');
-const btnLimpar = document.getElementById('btnLimpar');
+const btnLimpar = document.getElementById('bbtnLimpar');
 
 
 form.addEventListener("submit", (e) => {
@@ -95,8 +95,12 @@ checkInputs();
       
     }
     btnLimpar.addEventListener('click', function(){
+
+        small.visibility('hidden');
+            
         
-        password.remove('error');
+
+        
 
     })
 

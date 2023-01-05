@@ -94,9 +94,9 @@ checkInputs();
         formControl.className = "form-control success";
       
     }
-    btnLimpar.addEventListener('click', () =>{
+    btnLimpar.addEventListener('click', reset =>{
        if(setErrorFor){
-        small.innerText = 'hidden'
+        small = 'hidden'
        }
 
             

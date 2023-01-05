@@ -95,9 +95,9 @@ checkInputs();
       
     }
     btnLimpar.addEventListener('click', reset =>{
-       if(setErrorFor){
-        small.style.remove = 'form-control error'
-       }
+       
+        small.style.remove('form-control error')
+       
 
             
     });

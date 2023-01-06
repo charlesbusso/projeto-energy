@@ -104,7 +104,7 @@ checkInputs();
     
     btnLimpar.addEventListener('click', () =>{
        
-        formControl.className.removeAttribute('small');    
+        formControl.removeAttribute('small');    
 
 
             

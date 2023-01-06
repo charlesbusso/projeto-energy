@@ -94,9 +94,9 @@ checkInputs();
         formControl.className = "form-control success";
       
     }
-    btnLimpar.addEventListener('click', reset =>{
+    btnLimpar.addEventListener('click', () =>{
        
-        checkInputs.remove('form-control error')
+        setErrorFor.remove('message')
        
 
             

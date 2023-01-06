@@ -5,6 +5,7 @@ const tel = document.getElementById('tel');
 const password = document.getElementById('password');
 const passwordConfirmation = document.getElementById('password-confirmation');
 const btnLimpar = document.getElementById('btnLimpar');
+const errei = document.getElementById('errei');
 
 
 form.addEventListener("submit", (e) => {
@@ -92,11 +93,10 @@ checkInputs();
         const formControl = input.parentElement;
 
         formControl.className = "form-control success";
-        btnLimpar.addEventListener('click', () =>{
-            if(setErrorFor){
-             small.innerText = 'hidden'
-            }
-        });
+
+       btnLimpar.addEventListener('click', () =>{
+        message.visibility = 'hidden';
+       });
       
    
     

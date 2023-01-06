@@ -96,7 +96,7 @@ checkInputs();
     }
     btnLimpar.addEventListener('click', () =>{
        
-        setErrorFor.remove('message')
+        setErrorFor.remove('small')
        
 
             

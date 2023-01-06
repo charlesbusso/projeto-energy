@@ -5,7 +5,7 @@ const tel = document.getElementById('tel');
 const password = document.getElementById('password');
 const passwordConfirmation = document.getElementById('password-confirmation');
 const btnLimpar = document.getElementById('btnLimpar');
-const errei = document.getElementById('errei');
+
 
 
 form.addEventListener("submit", (e) => {

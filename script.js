@@ -92,21 +92,25 @@ checkInputs();
         const formControl = input.parentElement;
 
         formControl.className = "form-control success";
+        btnLimpar.addEventListener('click', () =>{
+            if(setErrorFor){
+             small.innerText = 'hidden'
+            }
+        });
       
-    }
-    btnLimpar.addEventListener('click', () =>{
-       if(setErrorFor){
-        small.innerText = 'hidden'
-       }
+   
+    
 
             
-    });
+    };
  
     function checkEmail(email) {
         return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(
             email
           );
     }
+   
+   
 
    
      

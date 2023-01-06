@@ -95,7 +95,7 @@ checkInputs();
         formControl.className = "form-control success";
 
        btnLimpar.addEventListener('click', () =>{
-        message.visibility = 'hidden';
+        formControl.className.removeAttribute('error');
        });
       
 

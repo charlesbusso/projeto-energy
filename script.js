@@ -98,8 +98,15 @@ checkInputs();
         message.visibility = 'hidden';
        });
       
+
    
     
+    }
+    btnLimpar.addEventListener('click', () =>{
+       
+        setErrorFor.remove('small')
+       
+
 
             
     };

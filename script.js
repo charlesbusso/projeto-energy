@@ -95,6 +95,10 @@ checkInputs();
         formControl.className = "form-control success";
 
       }
+     btnLimpar.addEventListener(reset, (e) => {
+      document.formControl.className.remove('small');
+     });
+
      
        
       

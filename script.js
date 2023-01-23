@@ -5,6 +5,7 @@ const tel = document.getElementById('tel');
 const password = document.getElementById('password');
 const passwordConfirmation = document.getElementById('password-confirmation');
 const btnLimpar = document.getElementById('btnLimpar');
+const ic = document.getElementById('ic');
 
 
 
@@ -93,21 +94,16 @@ checkInputs();
         const formControl = input.parentElement;
 
         formControl.className = "form-control success";
+    
 
       }
-     btnLimpar.addEventListener(reset, (e) => {
-      document.formControl.className.remove('small');
-     });
+     
+      
+     function addEventListener(click){
+         formControl.className.style =('hidden');
+        }
 
      
-       
-      
-        
-      
-   
-    
-    
-   
  
     function checkEmail(email) {
         return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(

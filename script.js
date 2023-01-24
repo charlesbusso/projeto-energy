@@ -109,7 +109,8 @@ checkInputs();
             setErrorFor(password, "");
             setErrorFor(email, "");
             setErrorFor(username, "");
-            setErrorFor(tel, "");  
+            setErrorFor(tel, "");
+            style.formControl.error = "hidden";
         }
            
         

@@ -111,7 +111,7 @@ checkInputs();
             setErrorFor(email, "");
             setErrorFor(username, "");
             setErrorFor(tel, "");
-            formControl.className.remove('ic');
+            setErrorFor(ic, "");
             
         }
            

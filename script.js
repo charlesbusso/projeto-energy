@@ -106,12 +106,12 @@ checkInputs();
           
         if(setErrorFor){
             setErrorFor(passwordConfirmation, "");
-            formControl.style.borderBottom = 'blue';
+            input.style.border = 'blue';
             setErrorFor(password, "");
             setErrorFor(email, "");
             setErrorFor(username, "");
             setErrorFor(tel, "");
-            setErrorFor(ic, "");
+            
             
         }
            

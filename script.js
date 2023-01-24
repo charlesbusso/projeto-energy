@@ -110,10 +110,9 @@ checkInputs();
             setErrorFor(email, "");
             setErrorFor(username, "");
             setErrorFor(tel, "");
-            setErrorFor(formControl.className = "");
+            formControl.style.remove('form-control error');
         }else if(setSuccessFor){
             setSuccessFor("");
-
 }
            
         

@@ -99,9 +99,19 @@ checkInputs();
       }
      
       
-     function addEventListener(click){
-         formControl.className.style =('hidden');
+     
+      document.getElementById("btnLimpar").addEventListener('click', reset);
+
+      function reset(){
+          
+        if(setErrorFor){
+            setErrorFor(passwordConfirmation, "");
+            input.style.borderColor = 'rgb(0, 0, 0255)';
+        }  else if(setErrorFor){ 
+            setErrorFor(password, "");
+        
         }
+      }
 
      
  

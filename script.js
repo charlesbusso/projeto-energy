@@ -110,7 +110,7 @@ checkInputs();
             setErrorFor(email, "");
             setErrorFor(username, "");
             setErrorFor(tel, "");
-            formControl.error.input = "hidden";
+            setErrorFor(formControl.input.style.borderColor = "blue");
         }
            
         

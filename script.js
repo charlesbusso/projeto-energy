@@ -106,11 +106,12 @@ checkInputs();
           
         if(setErrorFor){
             setErrorFor(passwordConfirmation, "");
-            input.style.borderColor = 'rgb(0, 0, 0255)';
-        }  else if(setErrorFor){ 
+            form.style.borderColor = 'rgb(0, 0, 0255)';
             setErrorFor(password, "");
-        
         }
+           
+        
+        
       }
 
      

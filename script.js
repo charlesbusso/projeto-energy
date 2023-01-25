@@ -110,7 +110,7 @@ checkInputs();
             setErrorFor(email, "");
             setErrorFor(username, "");
             setErrorFor(tel, "");
-            setErrorFor(formControl, "form-control i");
+            setErrorFor(formControl, "hidden");
         }else if(setSuccessFor){
             setSuccessFor("");
        }

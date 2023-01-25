@@ -110,7 +110,7 @@ checkInputs();
             setErrorFor(email, "");
             setErrorFor(username, "");
             setErrorFor(tel, "");
-            input.style.border = "blue";
+            formControl = ".form-control input";
         }else if(setSuccessFor){
             setSuccessFor("");
 }

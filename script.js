@@ -105,7 +105,7 @@ checkInputs();
       function reset(){
 
         if(passwordConfirmation == ""){
-           formControl.className.remove("form-control error");
+           formControl.remove("formControl.className");
 }
           
         /*if(setErrorFor){

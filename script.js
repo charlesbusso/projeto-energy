@@ -103,8 +103,11 @@ checkInputs();
       document.getElementById("btnLimpar").addEventListener('click', reset);
 
       function reset(){
+
+        if(passwordConfirmation == ""){
+           formControl.className.remove("form-control error");
           
-        if(setErrorFor){
+        /*if(setErrorFor){
             setErrorFor(passwordConfirmation, "");
             setErrorFor(password, "");
             setErrorFor(email, "");
@@ -112,7 +115,7 @@ checkInputs();
             setErrorFor(tel, "");
         }else if(setSuccessFor){
             setSuccessFor("");
-       }
+       }*/
       
         
         

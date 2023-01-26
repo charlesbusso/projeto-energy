@@ -106,6 +106,7 @@ checkInputs();
 
         if(passwordConfirmation == ""){
            formControl.className.remove("form-control error");
+}
           
         /*if(setErrorFor){
             setErrorFor(passwordConfirmation, "");

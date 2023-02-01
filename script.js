@@ -104,23 +104,23 @@ checkInputs();
 
       function reset(){
 
-        if(passwordConfirmation == ""){
-           formControl.remove("formControl.className");
-}
+  
           
-        /*if(setErrorFor){
+        if(setErrorFor){
+            
             setErrorFor(passwordConfirmation, "");
             setErrorFor(password, "");
             setErrorFor(email, "");
             setErrorFor(username, "");
             setErrorFor(tel, "");
+
         }else if(setSuccessFor){
             setSuccessFor("");
-       }*/
+       
       
         
         
-      }
+      }}
 
      
  

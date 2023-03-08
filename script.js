@@ -129,7 +129,7 @@ checkInputs();
            smc.style.visibility = "hidden";
            smd.style.visibility = "hidden";
            sme.style.visibility = "hidden"
-           style.input.borderBottom.color = 'blue';
+          
            
            
          }if(setSuccessFor){

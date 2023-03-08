@@ -5,7 +5,20 @@ const tel = document.getElementById('tel');
 const password = document.getElementById('password');
 const passwordConfirmation = document.getElementById('password-confirmation');
 const btnLimpar = document.getElementById('btnLimpar');
-const ic = document.getElementById('ic');
+const ica = document.getElementById('ica');
+const icb = document.getElementById('icb');
+const icc = document.getElementById('icc');
+const icd = document.getElementById('icd');
+const ice = document.getElementById('ice');
+const sma = document.getElementById('sma');
+const smb= document.getElementById('smb');
+const smc = document.getElementById('smc');
+const smd = document.getElementById('smd');
+const susa = document.getElementById('susa');
+const susb = document.getElementById('susb');
+const susc = document.getElementById('susc');
+const susd = document.getElementById('susd');
+const suse = document.getElementById('suse');
 
 
 
@@ -63,6 +76,7 @@ checkInputs();
     }
     else if (passwordConfirmationValue.length < 8) {
         setErrorFor(passwordConfirmation, " A senha preicsa ter nomínimo 8 caracteres");
+  
     }
     else {
         setSuccessFor(passwordConfirmation);
@@ -104,26 +118,29 @@ checkInputs();
 
       function reset(){
 
-  
-          
         if(setErrorFor){
-            
-            setErrorFor(passwordConfirmation, "");
-            setErrorFor(password, "");
-            setErrorFor(email, "");
-            setErrorFor(username, "");
-            setErrorFor(tel, "");
+           ica.style.visibility = "hidden";
+           icb.style.visibility = "hidden";
+           icc.style.visibility = "hidden";
+           icd.style.visibility = "hidden";
+           ice.style.visibility = "hidden";
+           sma.style.visibility = "hidden";
+           smb.style.visibility = "hidden";
+           smc.style.visibility = "hidden";
+           smd.style.visibility = "hidden";
+           sme.style.visibility = "hidden"
+           style.input.borderBottom.color = 'blue';
+           
+           
+         }if(setSuccessFor){
 
-        }else if(setSuccessFor){
-            setSuccessFor("");
-       
-      
-        
-        
-      }}
+            susa.style.visibility = "hidden";
+            susb.style.visibility = "hidden";
+            susc.style.visibility = "hidden";
+            susd.style.visibility = "hidden";
+            suse.style.visibility = "hidden";
+            }}
 
-     
- 
     function checkEmail(email) {
         return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(
             email

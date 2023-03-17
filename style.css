@@ -83,7 +83,7 @@ background-color: blue;
 @media(max-width: 700px){
    .capa { background-image: url("imagens/energy1.jpg"); margin-top: -30px;align-items: center;height: 270px;}
    .capa h1{font-size: 1.3rem; margin-bottom: 50px;font-weight: bolder;}
-   .capa p{ font-size: 0.9rem; margin-top: 20px;font-weight: bolder;}
+   .capa p{ font-size: 0.9rem; margin-top: 50px;font-weight: bolder;}
    
 }
 .quem-somos{

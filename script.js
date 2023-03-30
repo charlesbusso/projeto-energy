@@ -118,9 +118,9 @@ checkInputs();
      
 
       function reset(){
-    
-        if(setErrorFor){
-            
+       
+        
+            if(setErrorFor){ 
            ica.style.visibility = "hidden";
            icb.style.visibility = "hidden";
            icc.style.visibility = "hidden";
@@ -130,20 +130,34 @@ checkInputs();
            smb.style.visibility = "hidden";
            smc.style.visibility = "hidden";
            smd.style.visibility = "hidden";
-           sme.style.visibility = "hidden"
+           sme.style.visibility = "hidden";
+          
           
            
            
-         }if(setSuccessFor){
+             } else if (setSuccessFor){
+                
+               
+                susa.style.visibility = "hidden";
+                susb.style.visibility = "hidden";
+                susc.style.visibility = "hidden";
+                susd.style.visibility = "hidden";
+                suse.style.visibility = "hidden";
+
+
+             }/*if(setSuccessFor){
 
             susa.style.visibility = "hidden";
             susb.style.visibility = "hidden";
             susc.style.visibility = "hidden";
             susd.style.visibility = "hidden";
             suse.style.visibility = "hidden";
-            }}
+            }*/
 
-            document.getElementById("btnLimpar").addEventListener('click', reset);
+            
+        }
+
+        document.getElementById("btnLimpar").addEventListener('click', reset);
 
     function checkEmail(email) {
         return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(

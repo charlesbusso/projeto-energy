@@ -179,6 +179,7 @@ background-color: blue;
       margin-bottom: 0.3rem;
   }
   .inputField input{
+      border: 1px solid blue;
       border-radius: 5px;
       cursor: pointer;
       width: 300px;
@@ -187,6 +188,9 @@ background-color: blue;
   }
   .invalid{
       border: 1px solid red;
+  }
+  .valid{
+      border: 1px solid green;
   }
   .error{
       font-size: 15px;
@@ -197,7 +201,7 @@ background-color: blue;
       
   }
   hr{
-      background-image:  linear-gradient(to right, #2a2a2a,#fff);
+      background-color: blue;
       margin: 10px;
   }
   button{
@@ -219,7 +223,10 @@ background-color: blue;
   .thanks{
       padding: 40px;
       align-items: center;
+      color: blue;
+      font-size: 1.6rem;
   }
+ 
   .form{
    display: flex;
    flex-direction: column;
@@ -520,7 +527,7 @@ background-color: blue;
       .form{
          width: 330px;
       }
-      .grupo{
+      /*.grupo{
          padding: 5px;
          margin-top: 10px;  
          margin-bottom: 10px;
@@ -548,7 +555,7 @@ background-color: blue;
       }
      .grup input{
       margin-left: -10px;
-     }
+     }*/
 
    footer{
       display: flex;

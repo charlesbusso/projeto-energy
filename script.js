@@ -30,24 +30,34 @@ const isValidEmail = (email) => {
             elem.nextElementSibling.classList.remove('error-hidden')
             isValidForm = false
      }
+     const validateElem = (elem) => {
+          elem.classList.add('valid')
+          
+          
+      
+     }
+
 
     const validateInput = () => {
         isValidForm = true
         if(!inputName.value){
             invalidateElem(inputName)
-        }
+        }else (validateElem(inputName))
+
         if(!isValidEmail(inputEmail.value)){
           invalidateElem(inputEmail)
         }
         if(!isValidCPF(inputCPF.value)){
           invalidateElem(inputCPF)
         }
+        
     }
     
 
     form.addEventListener('submit', (e) => {
         e.preventDefault()
         validateInput()
+        
         if (isValidForm){
             form.remove()
             message.classList.remove('error-hidden')
@@ -57,6 +67,7 @@ const isValidEmail = (email) => {
 
     inputName.addEventListener('input',()=> {
         resetInput(inputName)
+        
         
         
     })

@@ -18,6 +18,7 @@ const isValidEmail = (email) => {
     const inputName = document.querySelector('input[name="name"]');
     const inputEmail = document.querySelector('input[name="email"]');
     const inputCPF = document.querySelector('input[name="CPF"]');
+    const inputAdress = document.querySelector('input[name="adress"]');
 
     let isValidForm = false
      const resetInput = (elem) => {
@@ -33,22 +34,25 @@ const isValidEmail = (email) => {
      const validateElem = (elem) => {
           elem.classList.add('valid')
           
-          
-      
+            
      }
+     
 
 
     const validateInput = () => {
         isValidForm = true
         if(!inputName.value){
             invalidateElem(inputName)
-        }else (validateElem(inputName))
+        }else (validateElem)
 
         if(!isValidEmail(inputEmail.value)){
           invalidateElem(inputEmail)
         }
         if(!isValidCPF(inputCPF.value)){
           invalidateElem(inputCPF)
+        }
+        if(!inputAdress.value){
+          invalidateElem(inputAdress)
         }
         
     }
@@ -81,7 +85,9 @@ const isValidEmail = (email) => {
       
       
   })
+     inputAdress.addEventListener('input',()=> {
+       resetInput(inputAdress)
    
-
+      })
    
      
